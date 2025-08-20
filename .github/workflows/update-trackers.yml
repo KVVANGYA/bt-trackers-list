@@ -1,0 +1,149 @@
+name: Update BT Trackers List
+
+on:
+  # 允许手动触发
+  workflow_dispatch:
+  # 定时触发，例如每天 UTC 时间 0 点运行
+  schedule:
+    - cron: '0 0 * * *'
+  # 推送到特定分支时触发（可选，用于测试）
+  push:
+    branches:
+      - main # 或你的默认分支名
+
+jobs:
+  update-list:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 检出代码
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          # 需要持久化凭证以推送更改
+          persist-credentials: false
+
+      # 2. 设置 Node.js 环境 (如果需要处理复杂逻辑)
+      # 如果只是简单的 curl/wget 和文本处理，这步可能不需要
+      # - name: Setup Node.js
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: '20'
+
+      # 3. 创建合并脚本 (使用 Bash)
+      - name: Create Merge Script
+        run: |
+          cat > merge_trackers.sh << 'EOF'
+          #!/bin/bash
+          
+          # 创建临时目录
+          TMP_DIR=$(mktemp -d)
+          echo "Using temporary directory: $TMP_DIR"
+          
+          # 定义 Tracker 列表 URLs
+          urls=(
+            "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt"
+            "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt"
+            "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_udp.txt"
+            "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_http.txt"
+            "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_https.txt"
+            "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt"
+            "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best_ip.txt"
+            
+            "https://cf.trackerslist.com/all.txt"
+            "https://cf.trackerslist.com/best.txt"
+            "https://cf.trackerslist.com/http.txt"
+            "https://cf.trackerslist.com/udp.txt"
+            
+            "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt"
+            "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt"
+            "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/http.txt"
+            "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/udp.txt"
+            
+            "https://newtrackon.com/api/all"
+            "https://trackers.mlsub.net/all.txt"
+            "https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt"
+            
+            "https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all.txt"
+            "https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection@master/all.txt"
+          )
+          
+          OUTPUT_FILE="trackers_merged.txt"
+          
+          # 清空或创建输出文件
+          > "$OUTPUT_FILE"
+          
+          # 遍历 URL 并获取内容
+          for url in "${urls[@]}"; do
+            echo "Fetching $url..."
+            # 使用 curl 获取内容，静默模式，失败时显示错误
+            content=$(curl -sSL --fail "$url" 2>/dev/null)
+            
+            # 检查 curl 是否成功
+            if [ $? -eq 0 ]; then
+              # 将内容追加到输出文件，确保以换行符结尾
+              echo "$content" >> "$OUTPUT_FILE"
+              # 添加一个换行符以确保列表项分隔
+              echo "" >> "$OUTPUT_FILE"
+            else
+              echo "Failed to fetch $url"
+            fi
+          done
+          
+          # 去重并排序
+          # 1. 删除空行和注释行
+          # 2. 排序
+          # 3. 去重
+          # 4. 保存到最终文件
+          grep -v '^#' "$OUTPUT_FILE" | grep -v '^$' | sort | uniq > trackers_final.txt
+          
+          # 创建带时间戳的文件（可选）
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          cp trackers_final.txt "trackers_$TIMESTAMP.txt"
+          
+          # 清理临时文件
+          rm -f "$OUTPUT_FILE"
+          rm -rf "$TMP_DIR"
+          
+          echo "Merge and deduplication complete. Final file: trackers_final.txt"
+          echo "Total trackers: $(wc -l < trackers_final.txt)"
+          EOF
+          
+          chmod +x merge_trackers.sh
+
+      # 4. 运行合并脚本
+      - name: Run Merge Script
+        run: ./merge_trackers.sh
+
+      # 5. 配置 Git 用户信息
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      # 6. 提交并推送更改
+      - name: Commit and Push Changes
+        run: |
+          git add trackers_final.txt
+          # 可选：添加带时间戳的文件
+          # git add trackers_*.txt
+          
+          # 检查是否有更改需要提交
+          if ! git diff --cached --quiet; then
+            git commit -m "Update trackers list ($(date -u))"
+            # 使用 GitHub_TOKEN 推送更改
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          else
+            echo "No changes to commit."
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 7. （可选）部署到 GitHub Pages
+      # 如果你希望将文件部署到 GitHub Pages
+      # - name: Deploy to GitHub Pages
+      #   uses: peaceiris/actions-gh-pages@v4
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: . # 发布当前目录
+      #     # 或者指定特定文件
+      #     # publish_file: trackers_final.txt
