@@ -45,18 +45,22 @@ jobs:
             "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/http.txt"
             "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/udp.txt"
             
+            # 添加的新源
             "https://newtrackon.com/api/all"
+            "https://newtrackon.com/api/stable?include_ipv4_only_trackers=1&include_ipv6_only_trackers=1" # 新增
+            
             "https://trackers.mlsub.net/all.txt"
             "https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt"
             
+            # 添加的新源 (注意: 这个 URL 返回的是纯文本列表)
+            "https://torrends.to/torrent-tracker-list/?download=latest" # 新增
+            
             "https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all.txt"
             "https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection@master/all.txt"
-
-            "https://newtrackon.com/api/stable?include_ipv4_only_trackers=1&include_ipv6_only_trackers=1"
-            "https://torrends.to/torrent-tracker-list/?download=latest"
           )
           
-          OUTPUT_FILE="$TMP_DIR/trackers_merged.txt"
+          OUTPUT_FILE="$TMP_DIR/trackers_merged_raw.txt" # 原始合并文件
+          FILTERED_FILE="$TMP_DIR/trackers_filtered.txt"  # 过滤后的文件
           FINAL_FILE="trackers_final.txt"
           
           # 清空或创建临时输出文件
@@ -67,7 +71,8 @@ jobs:
             echo "Fetching $url..."
             # 使用 curl 获取内容，静默模式，失败时显示错误
             # --max-time 30 设置最大请求时间，避免卡住
-            content=$(curl -sSL --fail --max-time 30 "$url" 2>/dev/null)
+            # -H "User-Agent: Mozilla/5.0" 添加 User-Agent 头部，有些站点可能需要
+            content=$(curl -sSL --fail --max-time 30 -H "User-Agent: Mozilla/5.0" "$url" 2>/dev/null)
             
             # 检查 curl 是否成功
             if [ $? -eq 0 ] && [ -n "$content" ]; then
@@ -80,35 +85,39 @@ jobs:
             fi
           done
           
-          # 初始化最终文件
-          > "$FINAL_FILE"
+          # 初始化过滤后的文件
+          > "$FILTERED_FILE"
           
-          # 逐行处理合并后的文件
-          while IFS= read -r line; do
+          # 逐行处理合并后的原始文件
+          while IFS= read -r line || [[ -n "$line" ]]; do # 处理最后一行可能没有换行符的情况
             # 去除行首行尾空白
             trimmed_line=$(echo "$line" | xargs)
             
             # 跳过空行和注释行
-            if [[ -n "$trimmed_line" && ! "$trimmed_line" =~ ^# ]]; then
+            if [[ -n "$trimmed_line" && ! "$trimmed_line" =~ ^[[:space:]]*# ]]; then
               # 检查是否为有效的 Tracker URL (以常见协议开头)
               # 使用更严格的正则表达式匹配 URL 格式
-              if [[ "$trimmed_line" =~ ^(http|https|udp|ws|wss)://[a-zA-Z0-9._-]+ ]]; then
-                 echo "$trimmed_line" >> "$FINAL_FILE"
-              # 特殊处理 newtrackon.com API 返回的纯域名:端口格式
-              elif [[ "$url" == "https://newtrackon.com/api/all" ]] && [[ "$trimmed_line" =~ ^[a-zA-Z0-9.-]+:[0-9]+ ]]; then
+              if [[ "$trimmed_line" =~ ^(http|https|udp|ws|wss)://[a-zA-Z0-9._:-]+ ]]; then
+                 echo "$trimmed_line" >> "$FILTERED_FILE"
+              # 特殊处理 newtrackon.com API 返回的纯域名:端口格式 (匹配 api/all 或 api/stable)
+              elif [[ "$url" == *"newtrackon.com/api/"* ]] && [[ "$trimmed_line" =~ ^[a-zA-Z0-9.\-]+:[0-9]+(/announce)? ]]; then
                  # 为 newtrackon 的格式添加 udp:// 前缀 (它通常是 UDP)
-                 echo "udp://$trimmed_line" >> "$FINAL_FILE"
+                 # 确保不重复添加 /announce
+                 if [[ "$trimmed_line" == */announce ]]; then
+                    echo "udp://$trimmed_line" >> "$FILTERED_FILE"
+                 else
+                    echo "udp://$trimmed_line/announce" >> "$FILTERED_FILE"
+                 fi
               else
-                 # 可选：打印被过滤掉的行用于调试
-                 # echo "Filtered out: $trimmed_line"
+                 # 可选：打印被过滤掉的行用于调试 (生产环境建议注释掉)
+                 # echo "DEBUG - Filtered out: '$trimmed_line'"
                  :
               fi
             fi
           done < "$OUTPUT_FILE"
           
-          # 对最终文件进行排序和去重
-          sort "$FINAL_FILE" | uniq > "$TMP_DIR/sorted_unique.txt"
-          mv "$TMP_DIR/sorted_unique.txt" "$FINAL_FILE"
+          # 对过滤后的文件进行排序和去重，生成最终文件
+          sort "$FILTERED_FILE" | uniq > "$FINAL_FILE"
           
           # 创建带时间戳的文件（可选）
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
