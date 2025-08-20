@@ -44,22 +44,18 @@ jobs:
             "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt"
             "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/http.txt"
             "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/udp.txt"
-
-            "https://raw.githubusercontent.com/hezhijie0327/Trackerslist/refs/heads/main/trackerslist_combine.txt"
-
-            "https://raw.githubusercontent.com/Tunglies/TrackersList/refs/heads/main/all.txt"
-
-            "https://raw.githubusercontent.com/adysec/tracker/main/trackers_all.txt"
             
-            # 添加的新源
             "https://newtrackon.com/api/all"
-            "https://newtrackon.com/api/stable?include_ipv4_only_trackers=1&include_ipv6_only_trackers=1" # 新增
+            "https://newtrackon.com/api/stable?include_ipv4_only_trackers=1&include_ipv6_only_trackers=1"
             
             "https://trackers.mlsub.net/all.txt"
             "https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt"
             
-            # 添加的新源 (注意: 这个 URL 返回的是纯文本列表)
-            "https://torrends.to/torrent-tracker-list/?download=latest" # 新增
+            "https://torrends.to/torrent-tracker-list/?download=latest"
+            
+            "https://raw.githubusercontent.com/hezhijie0327/Trackerslist/refs/heads/main/trackerslist_combine.txt"
+            "https://raw.githubusercontent.com/Tunglies/TrackersList/refs/heads/main/all.txt"
+            "https://raw.githubusercontent.com/adysec/tracker/main/trackers_all.txt"
             
             "https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all.txt"
             "https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection@master/all.txt"
@@ -77,7 +73,7 @@ jobs:
             echo "Fetching $url..."
             # 使用 curl 获取内容，静默模式，失败时显示错误
             # --max-time 30 设置最大请求时间，避免卡住
-            # -H "User-Agent: Mozilla/5.0" 添加 User-Agent 头部，有些站点可能需要
+            # -H "User-Agent: Mozilla/5.0" 添加 User-Agent 头部
             content=$(curl -sSL --fail --max-time 30 -H "User-Agent: Mozilla/5.0" "$url" 2>/dev/null)
             
             # 检查 curl 是否成功
@@ -103,11 +99,11 @@ jobs:
             if [[ -n "$trimmed_line" && ! "$trimmed_line" =~ ^[[:space:]]*# ]]; then
               # 检查是否为有效的 Tracker URL (以常见协议开头)
               # 使用更严格的正则表达式匹配 URL 格式
-              if [[ "$trimmed_line" =~ ^(http|https|udp|ws|wss)://[a-zA-Z0-9._:-]+ ]]; then
+              if [[ "$trimmed_line" =~ ^(http|https|udp|ws|wss)://[a-zA-Z0-9._:/\-\[\]]+ ]]; then
                  echo "$trimmed_line" >> "$FILTERED_FILE"
               # 特殊处理 newtrackon.com API 返回的纯域名:端口格式 (匹配 api/all 或 api/stable)
               elif [[ "$url" == *"newtrackon.com/api/"* ]] && [[ "$trimmed_line" =~ ^[a-zA-Z0-9.\-]+:[0-9]+(/announce)? ]]; then
-                 # 为 newtrackon 的格式添加 udp:// 前缀 (它通常是 UDP)
+                 # 为 newtrackon 的格式添加 udp:// 前缀
                  # 确保不重复添加 /announce
                  if [[ "$trimmed_line" == */announce ]]; then
                     echo "udp://$trimmed_line" >> "$FILTERED_FILE"
@@ -115,15 +111,74 @@ jobs:
                     echo "udp://$trimmed_line/announce" >> "$FILTERED_FILE"
                  fi
               else
-                 # 可选：打印被过滤掉的行用于调试 (生产环境建议注释掉)
+                 # 可选：打印被过滤掉的行用于调试
                  # echo "DEBUG - Filtered out: '$trimmed_line'"
                  :
               fi
             fi
           done < "$OUTPUT_FILE"
           
-          # 对过滤后的文件进行排序和去重，生成最终文件
-          sort "$FILTERED_FILE" | uniq > "$FINAL_FILE"
+          # 智能去重函数：标准化 URL 并去重
+          python3 - <<PY_EOF > "$TMP_DIR/deduplicated.txt"
+          from urllib.parse import urlparse
+          import sys
+          
+          def normalize_url(url):
+              """标准化 URL，移除默认端口"""
+              try:
+                  parsed = urlparse(url)
+                  scheme = parsed.scheme.lower()
+                  netloc = parsed.netloc.lower()
+                  path = parsed.path
+                  params = parsed.params
+                  query = parsed.query
+                  fragment = parsed.fragment
+                  
+                  # 移除默认端口
+                  if ':' in netloc:
+                      host, port = netloc.rsplit(':', 1)
+                      if port.isdigit():
+                          port_num = int(port)
+                          # 移除默认端口
+                          if (scheme == 'http' and port_num == 80) or \
+                             (scheme == 'https' and port_num == 443) or \
+                             (scheme == 'ws' and port_num == 80) or \
+                             (scheme == 'wss' and port_num == 443):
+                              netloc = host
+                  
+                  # 重建 URL
+                  normalized = f"{scheme}://{netloc}{path}"
+                  if params:
+                      normalized += f";{params}"
+                  if query:
+                      normalized += f"?{query}"
+                  if fragment:
+                      normalized += f"#{fragment}"
+                      
+                  return normalized
+              except Exception as e:
+                  # 如果解析失败，返回原始 URL
+                  return url
+          
+          # 读取过滤后的 URLs
+          with open('$FILTERED_FILE', 'r') as f:
+              urls = [line.strip() for line in f if line.strip()]
+          
+          # 标准化并去重
+          normalized_urls = {}
+          for url in urls:
+              normalized = normalize_url(url)
+              # 保留第一个出现的 URL（原始格式）
+              if normalized not in normalized_urls:
+                  normalized_urls[normalized] = url
+          
+          # 输出去重后的 URLs
+          for original_url in sorted(normalized_urls.values()):
+              print(original_url)
+          PY_EOF
+          
+          # 将去重后的结果复制到最终文件
+          cp "$TMP_DIR/deduplicated.txt" "$FINAL_FILE"
           
           # 创建带时间戳的文件（可选）
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
