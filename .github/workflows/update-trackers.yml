@@ -43,65 +43,83 @@ jobs:
             "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt"
             "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt"
             "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/http.txt"
-            "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/udp.txt"
+            # "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/udp.txt" # 注释掉已知有问题的源
             
-            # 添加的新源
             "https://newtrackon.com/api/all"
-            "https://newtrackon.com/api/stable?include_ipv4_only_trackers=1&include_ipv6_only_trackers=1" # 新增
+            "https://newtrackon.com/api/stable?include_ipv4_only_trackers=1&include_ipv6_only_trackers=1"
             
-            "https://trackers.mlsub.net/all.txt"
+            # "https://trackers.mlsub.net/all.txt" # 注释掉已知有问题的源
+            
             "https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt"
             
-            # 添加的新源 (注意: 这个 URL 返回的是纯文本列表)
-            "https://torrends.to/torrent-tracker-list/?download=latest" # 新增
+            "https://torrends.to/torrent-tracker-list/?download=latest"
+            
+            "https://raw.githubusercontent.com/hezhijie0327/Trackerslist/refs/heads/main/trackerslist_combine.txt"
+            "https://raw.githubusercontent.com/Tunglies/TrackersList/refs/heads/main/all.txt"
+            "https://raw.githubusercontent.com/adysec/tracker/main/trackers_all.txt"
             
             "https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all.txt"
             "https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection@master/all.txt"
           )
           
-          OUTPUT_FILE="$TMP_DIR/trackers_merged_raw.txt" # 原始合并文件
-          FILTERED_FILE="$TMP_DIR/trackers_filtered.txt"  # 过滤后的文件
+          RAW_MERGED_FILE="$TMP_DIR/trackers_raw_merged.txt"      # 完全原始合并文件
+          SPLIT_FILE="$TMP_DIR/trackers_split.txt"               # 分割后的文件
+          FILTERED_FILE="$TMP_DIR/trackers_filtered.txt"         # 过滤后的文件
           FINAL_FILE="trackers_final.txt"
           
           # 清空或创建临时输出文件
-          > "$OUTPUT_FILE"
+          > "$RAW_MERGED_FILE"
           
           # 遍历 URL 并获取内容
           for url in "${urls[@]}"; do
             echo "Fetching $url..."
             # 使用 curl 获取内容，静默模式，失败时显示错误
             # --max-time 30 设置最大请求时间，避免卡住
-            # -H "User-Agent: Mozilla/5.0" 添加 User-Agent 头部，有些站点可能需要
+            # -H "User-Agent: Mozilla/5.0" 添加 User-Agent 头部
             content=$(curl -sSL --fail --max-time 30 -H "User-Agent: Mozilla/5.0" "$url" 2>/dev/null)
             
             # 检查 curl 是否成功
             if [ $? -eq 0 ] && [ -n "$content" ]; then
               # 将内容追加到临时输出文件
-              echo "$content" >> "$OUTPUT_FILE"
+              echo "$content" >> "$RAW_MERGED_FILE"
               # 添加一个换行符以确保列表项分隔
-              echo "" >> "$OUTPUT_FILE"
+              echo "" >> "$RAW_MERGED_FILE"
             else
               echo "Warning: Failed to fetch or empty content from $url"
             fi
           done
           
+          # === 新增步骤：分割粘连的 URLs ===
+          # 使用 grep 和 sed 来识别并分割常见的 Tracker 协议模式
+          # 这个命令会:
+          # 1. 将包含多个 http/https/udp/ws/wss 协议的行进行分割
+          # 2. 在每个协议前添加换行符
+          # 3. 然后删除空行
+          cat "$RAW_MERGED_FILE" | \
+            sed 's/https:\/\//\nhttps:\/\//g' | \
+            sed 's/http:\/\//\nhttp:\/\//g' | \
+            sed 's/udp:\/\//\nudp:\/\//g' | \
+            sed 's/ws:\/\//\nws:\/\//g' | \
+            sed 's/wss:\/\//\nwss:\/\//g' | \
+            grep -v '^[[:space:]]*$' > "$SPLIT_FILE"
+          
           # 初始化过滤后的文件
           > "$FILTERED_FILE"
           
-          # 逐行处理合并后的原始文件
+          # 逐行处理分割后的文件
           while IFS= read -r line || [[ -n "$line" ]]; do # 处理最后一行可能没有换行符的情况
-            # 去除行首行尾空白
-            trimmed_line=$(echo "$line" | xargs)
+            # 使用 sed 去除行首行尾空白字符
+            trimmed_line=$(echo "$line" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
             
             # 跳过空行和注释行
             if [[ -n "$trimmed_line" && ! "$trimmed_line" =~ ^[[:space:]]*# ]]; then
               # 检查是否为有效的 Tracker URL (以常见协议开头)
               # 使用更严格的正则表达式匹配 URL 格式
-              if [[ "$trimmed_line" =~ ^(http|https|udp|ws|wss)://[a-zA-Z0-9._:-]+ ]]; then
+              if [[ "$trimmed_line" =~ ^(http|https|udp|ws|wss)://[a-zA-Z0-9._:/\-\[\]?=%&#+]+$ ]]; then
                  echo "$trimmed_line" >> "$FILTERED_FILE"
               # 特殊处理 newtrackon.com API 返回的纯域名:端口格式 (匹配 api/all 或 api/stable)
               elif [[ "$url" == *"newtrackon.com/api/"* ]] && [[ "$trimmed_line" =~ ^[a-zA-Z0-9.\-]+:[0-9]+(/announce)? ]]; then
-                 # 为 newtrackon 的格式添加 udp:// 前缀 (它通常是 UDP)
+                 # 为 newtrackon 的格式添加 udp:// 前缀
                  # 确保不重复添加 /announce
                  if [[ "$trimmed_line" == */announce ]]; then
                     echo "udp://$trimmed_line" >> "$FILTERED_FILE"
@@ -114,10 +132,121 @@ jobs:
                  :
               fi
             fi
-          done < "$OUTPUT_FILE"
+          done < "$SPLIT_FILE"
           
-          # 对过滤后的文件进行排序和去重，生成最终文件
-          sort "$FILTERED_FILE" | uniq > "$FINAL_FILE"
+          # 智能去重函数：标准化 URL 并去重
+          python3 - <<PY_EOF > "$TMP_DIR/deduplicated.txt" 2>"$TMP_DIR/python_error.log"
+          from urllib.parse import urlparse
+          import sys
+          import re
+          
+          def normalize_url(url):
+              """标准化 URL，移除默认端口"""
+              try:
+                  # 预处理：移除 URL 末尾可能的多余字符（如 HTML 标签）
+                  # 匹配直到第一个空白字符、引号、尖括号或行尾
+                  match = re.match(r'^([a-zA-Z][a-zA-Z0-9+.-]*://[^\s"\'<>]+)', url)
+                  if match:
+                      clean_url = match.group(1)
+                  else:
+                      clean_url = url
+                      
+                  parsed = urlparse(clean_url)
+                  scheme = parsed.scheme.lower()
+                  netloc = parsed.netloc.lower()
+                  path = parsed.path
+                  params = parsed.params
+                  query = parsed.query
+                  fragment = parsed.fragment
+                  
+                  # 移除默认端口
+                  if ':' in netloc:
+                      # 分离主机名和端口部分
+                      if ']' in netloc: # IPv6 地址 [::1]:8080
+                          if netloc.endswith(']'): # 没有端口
+                              pass
+                          elif netloc.rfind(':') > netloc.rfind(']'): # 有端口
+                              host_part = netloc[:netloc.rfind(':')]
+                              port_part = netloc[netloc.rfind(':')+1:]
+                              if port_part.isdigit():
+                                  port_num = int(port_part)
+                                  # 移除默认端口
+                                  if (scheme == 'http' and port_num == 80) or \
+                                     (scheme == 'https' and port_num == 443) or \
+                                     (scheme == 'ws' and port_num == 80) or \
+                                     (scheme == 'wss' and port_num == 443):
+                                      netloc = host_part
+                      else: # IPv4 或域名
+                          if ':' in netloc and not netloc.startswith('['):
+                              host, port = netloc.rsplit(':', 1)
+                              if port.isdigit():
+                                  port_num = int(port)
+                                  # 移除默认端口
+                                  if (scheme == 'http' and port_num == 80) or \
+                                     (scheme == 'https' and port_num == 443) or \
+                                     (scheme == 'ws' and port_num == 80) or \
+                                     (scheme == 'wss' and port_num == 443):
+                                      netloc = host
+                  
+                  # 重建 URL
+                  normalized = f"{scheme}://{netloc}{path}"
+                  if params:
+                      normalized += f";{params}"
+                  if query:
+                      normalized += f"?{query}"
+                  if fragment:
+                      normalized += f"#{fragment}"
+                      
+                  return normalized
+              except Exception as e:
+                  # 如果解析失败，返回原始 URL (清理后的)
+                  print(f"Warning: Failed to parse URL '{url}': {e}", file=sys.stderr)
+                  return url
+          
+          # 读取过滤后的 URLs
+          try:
+              with open('$FILTERED_FILE', 'r') as f:
+                  urls = [line.strip() for line in f if line.strip()]
+          except FileNotFoundError:
+              print(f"Error: File '$FILTERED_FILE' not found.", file=sys.stderr)
+              sys.exit(1)
+          except Exception as e:
+              print(f"Error reading file '$FILTERED_FILE': {e}", file=sys.stderr)
+              sys.exit(1)
+          
+          # 标准化并去重
+          normalized_urls = {}
+          for url in urls:
+              try:
+                  normalized = normalize_url(url)
+                  # 保留第一个出现的 URL（原始格式）
+                  if normalized not in normalized_urls:
+                      normalized_urls[normalized] = url
+              except Exception as e:
+                  print(f"Warning: Failed to process URL '{url}': {e}", file=sys.stderr)
+                  # 即使处理单个 URL 出错，也继续处理其他 URL
+                  continue
+          
+          # 输出去重后的 URLs
+          for original_url in sorted(normalized_urls.values()):
+              print(original_url)
+          
+          PY_EOF
+          
+          # 检查 Python 脚本是否有错误
+          if [ -f "$TMP_DIR/python_error.log" ] && [ -s "$TMP_DIR/python_error.log" ]; then
+              echo "=== Python Script Errors ==="
+              cat "$TMP_DIR/python_error.log"
+              echo "============================"
+          fi
+          
+          # 将去重后的结果复制到最终文件
+          if [ -f "$TMP_DIR/deduplicated.txt" ]; then
+              cp "$TMP_DIR/deduplicated.txt" "$FINAL_FILE"
+          else
+              echo "Error: Deduplication failed, output file not created."
+              exit 1
+          fi
           
           # 创建带时间戳的文件（可选）
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
