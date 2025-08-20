@@ -44,6 +44,12 @@ jobs:
             "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt"
             "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/http.txt"
             "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/udp.txt"
+
+            "https://raw.githubusercontent.com/hezhijie0327/Trackerslist/refs/heads/main/trackerslist_combine.txt"
+
+            "https://raw.githubusercontent.com/Tunglies/TrackersList/refs/heads/main/all.txt"
+
+            "https://raw.githubusercontent.com/adysec/tracker/main/trackers_all.txt"
             
             # 添加的新源
             "https://newtrackon.com/api/all"
