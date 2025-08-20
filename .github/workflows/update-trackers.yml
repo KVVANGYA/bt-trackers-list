@@ -91,10 +91,6 @@ jobs:
           
           # === 新增步骤：分割粘连的 URLs ===
           # 使用 grep 和 sed 来识别并分割常见的 Tracker 协议模式
-          # 这个命令会:
-          # 1. 将包含多个 http/https/udp/ws/wss 协议的行进行分割
-          # 2. 在每个协议前添加换行符
-          # 3. 然后删除空行
           cat "$RAW_MERGED_FILE" | \
             sed 's/https:\/\//\nhttps:\/\//g' | \
             sed 's/http:\/\//\nhttp:\/\//g' | \
@@ -113,10 +109,16 @@ jobs:
             
             # 跳过空行和注释行
             if [[ -n "$trimmed_line" && ! "$trimmed_line" =~ ^[[:space:]]*# ]]; then
+              # 定义一个变量来存储正则表达式，避免在 [[ ]] 中直接使用特殊字符
               # 检查是否为有效的 Tracker URL (以常见协议开头)
-              # 使用更严格的正则表达式匹配 URL 格式
-              if [[ "$trimmed_line" =~ ^(http|https|udp|ws|wss)://[a-zA-Z0-9._:/\-\[\]?=%&#+]+$ ]]; then
-                 echo "$trimmed_line" >> "$FILTERED_FILE"
+              # 匹配 http, https, udp, ws, wss 协议的 URL
+              # 允许字母、数字、点、下划线、冒号、斜杠、连字符、方括号、问号、等号、百分号、与符号、井号、加号
+              if [[ "$trimmed_line" =~ ^https?:// || "$trimmed_line" =~ ^udp:// || "$trimmed_line" =~ ^wss?:// ]] && \
+                 [[ "$trimmed_line" =~ ^[a-zA-Z][a-zA-Z0-9+.-]*://[a-zA-Z0-9._:/\-\[\]?=%&#+'"]+$ ]]; then
+                # 进一步验证 URL 格式（确保它看起来像一个真正的 URL）
+                if [[ "$trimmed_line" =~ ^[a-zA-Z][a-zA-Z0-9+.-]*://[a-zA-Z0-9] ]]; then
+                  echo "$trimmed_line" >> "$FILTERED_FILE"
+                fi
               # 特殊处理 newtrackon.com API 返回的纯域名:端口格式 (匹配 api/all 或 api/stable)
               elif [[ "$url" == *"newtrackon.com/api/"* ]] && [[ "$trimmed_line" =~ ^[a-zA-Z0-9.\-]+:[0-9]+(/announce)? ]]; then
                  # 为 newtrackon 的格式添加 udp:// 前缀
