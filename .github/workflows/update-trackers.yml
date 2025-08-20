@@ -51,6 +51,9 @@ jobs:
             
             "https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all.txt"
             "https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection@master/all.txt"
+
+            "https://newtrackon.com/api/stable?include_ipv4_only_trackers=1&include_ipv6_only_trackers=1"
+            "https://torrends.to/torrent-tracker-list/?download=latest"
           )
           
           OUTPUT_FILE="$TMP_DIR/trackers_merged.txt"
