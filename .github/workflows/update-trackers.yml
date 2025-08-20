@@ -108,31 +108,38 @@ jobs:
             trimmed_line=$(echo "$line" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
             
             # 跳过空行和注释行
-            if [[ -n "$trimmed_line" && ! "$trimmed_line" =~ ^[[:space:]]*# ]]; then
-              # 定义一个变量来存储正则表达式，避免在 [[ ]] 中直接使用特殊字符
-              # 检查是否为有效的 Tracker URL (以常见协议开头)
-              # 匹配 http, https, udp, ws, wss 协议的 URL
-              # 允许字母、数字、点、下划线、冒号、斜杠、连字符、方括号、问号、等号、百分号、与符号、井号、加号
-              if [[ "$trimmed_line" =~ ^https?:// || "$trimmed_line" =~ ^udp:// || "$trimmed_line" =~ ^wss?:// ]] && \
-                 [[ "$trimmed_line" =~ ^[a-zA-Z][a-zA-Z0-9+.-]*://[a-zA-Z0-9._:/\-\[\]?=%&#+'"]+$ ]]; then
-                # 进一步验证 URL 格式（确保它看起来像一个真正的 URL）
-                if [[ "$trimmed_line" =~ ^[a-zA-Z][a-zA-Z0-9+.-]*://[a-zA-Z0-9] ]]; then
-                  echo "$trimmed_line" >> "$FILTERED_FILE"
-                fi
-              # 特殊处理 newtrackon.com API 返回的纯域名:端口格式 (匹配 api/all 或 api/stable)
-              elif [[ "$url" == *"newtrackon.com/api/"* ]] && [[ "$trimmed_line" =~ ^[a-zA-Z0-9.\-]+:[0-9]+(/announce)? ]]; then
-                 # 为 newtrackon 的格式添加 udp:// 前缀
-                 # 确保不重复添加 /announce
-                 if [[ "$trimmed_line" == */announce ]]; then
-                    echo "udp://$trimmed_line" >> "$FILTERED_FILE"
-                 else
-                    echo "udp://$trimmed_line/announce" >> "$FILTERED_FILE"
-                 fi
-              else
-                 # 可选：打印被过滤掉的行用于调试 (生产环境建议注释掉)
-                 # echo "DEBUG - Filtered out: '$trimmed_line'"
-                 :
-              fi
+            if [ -n "$trimmed_line" ] && [ "${trimmed_line#\#}" = "$trimmed_line" ]; then # 不以 # 开头且非空
+              # 定义一个函数来检查是否为有效的 Tracker URL
+              # 检查是否以常见的 tracker 协议开头
+              case "$trimmed_line" in
+                http://*|https://*|udp://*|ws://*|wss://*)
+                  # 进一步检查：确保协议后有内容 (避免 http:// 这样的无效 URL)
+                  # 提取协议后的部分
+                  rest="${trimmed_line#*://}"
+                  if [ -n "$rest" ]; then
+                    # 基本的有效性检查通过，写入文件
+                    echo "$trimmed_line" >> "$FILTERED_FILE"
+                  fi
+                  ;;
+                *)
+                  # 特殊处理 newtrackon.com API 返回的纯域名:端口格式 (匹配 api/all 或 api/stable)
+                  # 检查当前处理的 URL 是否来自 newtrackon (这是一个简化检查，实际在循环外无法精确知道)
+                  # 但我们可以在处理时检查行的格式
+                  if echo "$trimmed_line" | grep -qE '^[a-zA-Z0-9.\-]+:[0-9]+(/announce)?$'; then
+                     # 为 newtrackon 的格式添加 udp:// 前缀
+                     # 确保不重复添加 /announce
+                     if echo "$trimmed_line" | grep -q '/announce$'; then
+                        echo "udp://$trimmed_line" >> "$FILTERED_FILE"
+                     else
+                        echo "udp://$trimmed_line/announce" >> "$FILTERED_FILE"
+                     fi
+                  else
+                     # 可选：打印被过滤掉的行用于调试 (生产环境建议注释掉)
+                     # echo "DEBUG - Filtered out: '$trimmed_line'"
+                     :
+                  fi
+                  ;;
+              esac
             fi
           done < "$SPLIT_FILE"
           
