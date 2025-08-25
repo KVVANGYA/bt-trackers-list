@@ -244,6 +244,7 @@ http://189.69.168.180:6969/announce
 http://189.69.169.237:6969/announce
 http://189.69.171.75:6969/announce
 http://189.69.171.84:6969/announce
+http://189.79.12.122:6969/announce
 http://189.79.12.24:6969/announce
 http://189.79.13.111:6969/announce
 http://191.23.62.147:6969/announce
@@ -359,6 +360,7 @@ http://34.89.91.10:443/announce
 http://34.89.91.10:6960/announce
 http://34.89.91.10:6969/announce
 http://34.89.91.10:80/announce
+http://34.89.91.10:80/announce.php
 http://34.94.213.23/announce
 http://34.94.213.23:11451/announce
 http://34.94.213.23:2710/announce
@@ -1471,7 +1473,7 @@ https://tracker.flashtorrents.org:6969/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.fr.eu.org/announce
 https://tracker.gbitt.info:443/announce
-https://tracker.gcrenwp.top:443/announce
+https://tracker.gcrenwp.top/announce
 https://tracker.gcrreen.xyz/announce
 https://tracker.ghostchu-services.top:443/announce
 https://tracker.grepler.com:6969/announce
@@ -1782,6 +1784,7 @@ udp://189.69.168.180:6969/announce
 udp://189.69.169.237:6969/announce
 udp://189.69.171.75:6969/announce
 udp://189.69.171.84:6969/announce
+udp://189.79.12.122:6969/announce
 udp://189.79.12.24:6969/announce
 udp://189.79.13.111:6969/announce
 udp://190.146.242.81:6969/announce
