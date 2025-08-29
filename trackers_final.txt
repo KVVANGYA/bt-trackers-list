@@ -192,6 +192,7 @@ http://179.118.132.77:6969/announce
 http://179.118.133.224:6969/announce
 http://179.175.247.60:6969/announce
 http://179.98.254.95:6969/announce
+http://179.98.51.208:6969/announce
 http://180.113.224.97:6969/announce
 http://180.113.227.211:6969/announce
 http://180.97.219.76:8070/announce
@@ -302,8 +303,8 @@ http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
-http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
+http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -372,6 +373,7 @@ http://34.94.76.146:443/announce
 http://34.94.76.146:6960/announce
 http://34.94.76.146:6969/announce
 http://34.94.76.146:80/announce
+http://34.94.76.146:80/announce.php
 http://35.227.12.84/announce
 http://35.227.12.84:2710/announce
 http://35.227.59.57:11450/announce
@@ -391,6 +393,7 @@ http://38.145.197.79:6961/announce
 http://4.tracker.devnak.win:6969/announce
 http://43.139.20.56:6969/announce
 http://44.30.4.4:6969/announce
+http://45.13.119.213:6969/announce
 http://45.146.254.59:80/announce
 http://45.154.253.10/announce
 http://45.154.253.4/announce
@@ -988,6 +991,7 @@ http://tracker.cutie.dating:80/announce
 http://tracker.darkness.services:6969/announce
 http://tracker.ddunlimited.net:6969/announce
 http://tracker.devil-torrents.pl/announce
+http://tracker.dhitechnical.com:6969/announce
 http://tracker.dler.com:6969/announce
 http://tracker.dler.org:6969/announce
 http://tracker.dm258.cn:7070/announce
@@ -1472,7 +1476,7 @@ https://tracker.flashtorrents.org:6969/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.fr.eu.org/announce
 https://tracker.gbitt.info:443/announce
-https://tracker.gcrenwp.top/announce
+https://tracker.gcrenwp.top:443/announce
 https://tracker.gcrreen.xyz/announce
 https://tracker.ghostchu-services.top:443/announce
 https://tracker.grepler.com:6969/announce
@@ -1736,6 +1740,7 @@ udp://178.33.73.26:2710/announce
 udp://179.118.132.77:6969/announce
 udp://179.175.247.60:6969/announce
 udp://179.98.254.95:6969/announce
+udp://179.98.51.208:6969/announce
 udp://18.191.163.220:6969/announce
 udp://181.214.58.63:6969/announce
 udp://182.176.139.129:6969/announce
@@ -1961,6 +1966,7 @@ udp://37.27.4.53:6969/announce
 udp://37.59.48.81:6969/announce
 udp://4.tracker.devnak.win:6969/announce
 udp://43.154.112.29:17272/announce
+udp://45.13.119.213:6969/announce
 udp://45.154.214.21:6969/announce
 udp://45.154.96.35:6969/announce
 udp://45.155.53.144:6969/announce
