@@ -358,6 +358,7 @@ http://31.38.161.123:6969/announce
 http://34.170.169.34/announce
 http://34.170.169.34:6960/announce
 http://34.170.169.34:6969/announce
+http://34.170.169.34:80/announce.php
 http://34.52.190.155/announce
 http://34.52.190.155:6960/announce
 http://34.52.190.155:6969/announce
@@ -2484,6 +2485,7 @@ udp://run.publictracker.xyz:6969/announce
 udp://rutorrent.frontline-mod.com:6969/announce
 udp://ryjer.com:6969/announce
 udp://sabross.xyz:6969/announce
+udp://saltwood.top:6969/announce
 udp://sanincode.com:6969/announce
 udp://santost12.xyz:6969/announce
 udp://sd-161673.dedibox.fr:6969/announce
@@ -2842,6 +2844,7 @@ udp://zecircle.xyz:6969/announce
 udp://zephir.monocul.us:6969/announce
 udp://zer0day.ch:1337/announce
 udp://zer0day.to:1337/announce
+ws://passpulse.net:8000/announce
 ws://tracker.files.fm:7072/announce
 ws://tracker.ghostchu-services.top:80/announce
 wss://qot.abiir.top:443/announce
