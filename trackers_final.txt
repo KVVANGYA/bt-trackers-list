@@ -358,7 +358,6 @@ http://31.38.161.123:6969/announce
 http://34.170.169.34/announce
 http://34.170.169.34:6960/announce
 http://34.170.169.34:6969/announce
-http://34.170.169.34:80/announce.php
 http://34.52.190.155/announce
 http://34.52.190.155:6960/announce
 http://34.52.190.155:6969/announce
@@ -374,7 +373,6 @@ http://34.89.91.10:443/announce
 http://34.89.91.10:6960/announce
 http://34.89.91.10:6969/announce
 http://34.89.91.10:80/announce
-http://34.89.91.10:80/announce.php
 http://34.94.213.23/announce
 http://34.94.213.23:11451/announce
 http://34.94.213.23:2710/announce
@@ -386,6 +384,7 @@ http://34.94.76.146:443/announce
 http://34.94.76.146:6960/announce
 http://34.94.76.146:6969/announce
 http://34.94.76.146:80/announce
+http://34.94.76.146:80/announce.php
 http://35.227.12.84/announce
 http://35.227.12.84:2710/announce
 http://35.227.59.57:11450/announce
@@ -404,9 +403,10 @@ http://37.27.188.67:6969/announce
 http://38.145.197.79:6961/announce
 http://4.tracker.devnak.win:6969/announce
 http://43.139.20.56:6969/announce
+http://44.30.4.3:6969/announce
 http://44.30.4.4:6969/announce
 http://45.13.119.213:6969/announce
-http://45.146.254.59:80/announce
+http://45.146.254.59/announce
 http://45.154.253.10/announce
 http://45.154.253.4/announce
 http://45.154.253.5/announce
@@ -954,6 +954,7 @@ http://tr.bangumi.moe/announce
 http://tr.bangumi.moe:6969/announce
 http://tr.cili001.com70/announce
 http://tr.cili001.com:8070/announce
+http://tr.highstar.shop:80/announce
 http://tr.kxmp.cf:80/announce
 http://tr.nyacat.pw/announce
 http://tr1.aag.moe:2095/announce
@@ -1002,7 +1003,7 @@ http://tracker.coppersurfer.site:2710/announce
 http://tracker.coppersurfer.tk:6969/announce
 http://tracker.corpscorp.online:80/announce
 http://tracker.cubicview.site/announce
-http://tracker.cutie.dating:80/announce
+http://tracker.cutie.dating/announce
 http://tracker.darkness.services:6969/announce
 http://tracker.ddunlimited.net:6969/announce
 http://tracker.devil-torrents.pl/announce
@@ -1985,6 +1986,7 @@ udp://37.27.4.53:6969/announce
 udp://37.59.48.81:6969/announce
 udp://4.tracker.devnak.win:6969/announce
 udp://43.154.112.29:17272/announce
+udp://44.30.4.3:6969/announce
 udp://45.13.119.213:6969/announce
 udp://45.154.214.21:6969/announce
 udp://45.154.96.35:6969/announce
