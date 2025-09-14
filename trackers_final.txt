@@ -195,6 +195,7 @@ http://179.175.247.60:6969/announce
 http://179.98.254.201:6969/announce
 http://179.98.254.95:6969/announce
 http://179.98.51.208:6969/announce
+http://179.98.51.248:6969/announce
 http://180.113.224.97:6969/announce
 http://180.113.227.211:6969/announce
 http://180.97.219.76:8070/announce
@@ -464,8 +465,8 @@ http://5rt.tace.ru:60889/announce
 http://6.tracker.devnak.win:6969/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org:80/bt:80/announce.php
-http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
+http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
@@ -1758,6 +1759,7 @@ udp://179.175.247.60:6969/announce
 udp://179.98.254.201:6969/announce
 udp://179.98.254.95:6969/announce
 udp://179.98.51.208:6969/announce
+udp://179.98.51.248:6969/announce
 udp://18.191.163.220:6969/announce
 udp://181.214.58.63:6969/announce
 udp://182.176.139.129:6969/announce
