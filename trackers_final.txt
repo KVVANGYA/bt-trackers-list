@@ -316,8 +316,8 @@ http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
-http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
+http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -1167,7 +1167,7 @@ http://tracker.zerobytes.xyz:1337/announce
 http://tracker.zhuqiy.com:80/announce
 http://tracker.zhuqiy.dgj055.icu:80/announce
 http://tracker.zhuqiy.eu.org:36107/announce
-http://tracker.zhuqiy.top:80/announce
+http://tracker.zhuqiy.top/announce
 http://tracker01.loveapp.com:6789/announce
 http://tracker1.bt.moack.co.kr:80/announce
 http://tracker1.itzmx.com80/announce
