@@ -88,6 +88,7 @@ http://123.245.62.69:6969/announce
 http://123.245.62.72:6969/announce
 http://123.245.62.75:6969/announce
 http://123.245.62.7:6969/announce
+http://123.245.62.84:6969/announce
 http://123.245.62.95:6969/announce
 http://125.227.35.196:6969/announce
 http://125.227.79.123/announce
@@ -258,6 +259,7 @@ http://189.69.171.84:6969/announce
 http://189.79.12.122:6969/announce
 http://189.79.12.24:6969/announce
 http://189.79.12.59:6969/announce
+http://189.79.13.107:6969/announce
 http://189.79.13.111:6969/announce
 http://191.23.121.129:6969/announce
 http://191.23.62.147:6969/announce
@@ -317,8 +319,8 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.188:80/announce
 http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 http://211.75.205.190/announce
@@ -1011,6 +1013,7 @@ http://tracker.bz:80/announce
 http://tracker.calculate.ru:6969/announce
 http://tracker.ccc.de/announce
 http://tracker.ccp.ovh:6969/announce
+http://tracker.chaoz.li:2710/announce
 http://tracker.city9x.com:2710/announce
 http://tracker.computel.fr/announce
 http://tracker.coppersurfer.site:2710/announce
