@@ -220,6 +220,7 @@ http://185.5.97.139:8089/announce
 http://185.70.187.79:6969/announce
 http://185.83.215.123:6969/announce
 http://186.10.170.119:1337/announce
+http://186.10.170.23:1337/announce
 http://186.10.170.30:1337/announce
 http://186.10.170.71:1337/announce
 http://186.10.170.97:1337/announce
@@ -1442,7 +1443,7 @@ https://tr-zhuqiy-1.dgj055.icu:443/announce
 https://tr-zhuqiy-2.dgj055.icu:443/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
