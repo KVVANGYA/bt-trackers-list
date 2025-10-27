@@ -324,8 +324,8 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.188:80/announce
 http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 http://211.75.205.190/announce
@@ -412,6 +412,7 @@ http://35.227.59.57:443/announce
 http://35.227.59.57:6960/announce
 http://35.227.59.57:6969/announce
 http://35.227.59.57:80/announce
+http://35.227.59.57:80/announce.php
 http://37.19.5.139:6969/announce
 http://37.19.5.155:6881/announce
 http://37.235.174.46:2710/announce
@@ -480,8 +481,8 @@ http://5rt.tace.ru:60889/announce
 http://6.tracker.devnak.win:6969/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org:80/bt:80/announce.php
+http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
-http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
