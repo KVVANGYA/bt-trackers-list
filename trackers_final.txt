@@ -136,7 +136,7 @@ http://152.249.97.159:6969/announce
 http://152.67.8.255:6969/announce
 http://154.29.145.56:17715/announce
 http://155.248.200.105/announce
-http://156.234.201.18:80/announce
+http://156.234.201.18/announce
 http://157.131.124.190:6969/announce
 http://157.7.202.64:8080/announce
 http://157.90.169.123/announce
@@ -373,9 +373,12 @@ http://222.84.23.109:6969/announce
 http://222.84.23.141:6969/announce
 http://27.197.187.78:6969/announce
 http://31.38.161.123:6969/announce
-http://34.170.169.34/announce
+http://34.170.169.34:11450/announce
+http://34.170.169.34:1337/announce
+http://34.170.169.34:2710/announce
 http://34.170.169.34:6960/announce
 http://34.170.169.34:6969/announce
+http://34.170.169.34:80/announce
 http://34.52.190.155/announce
 http://34.52.190.155:6960/announce
 http://34.52.190.155:6969/announce
@@ -401,7 +404,6 @@ http://34.94.76.146:443/announce
 http://34.94.76.146:6960/announce
 http://34.94.76.146:6969/announce
 http://34.94.76.146:80/announce
-http://34.94.76.146:80/announce.php
 http://35.227.12.84/announce
 http://35.227.12.84:2710/announce
 http://35.227.59.57:11450/announce
