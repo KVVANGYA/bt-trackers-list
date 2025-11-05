@@ -136,7 +136,7 @@ http://152.249.97.159:6969/announce
 http://152.67.8.255:6969/announce
 http://154.29.145.56:17715/announce
 http://155.248.200.105/announce
-http://156.234.201.18/announce
+http://156.234.201.18:80/announce
 http://157.131.124.190:6969/announce
 http://157.7.202.64:8080/announce
 http://157.90.169.123/announce
@@ -329,8 +329,8 @@ http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.188:80/announce
+http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
-http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -421,7 +421,6 @@ http://35.227.59.57:443/announce
 http://35.227.59.57:6960/announce
 http://35.227.59.57:6969/announce
 http://35.227.59.57:80/announce
-http://35.227.59.57:80/announce.php
 http://37.19.5.139:6969/announce
 http://37.19.5.155:6881/announce
 http://37.235.174.46:2710/announce
@@ -490,8 +489,8 @@ http://5rt.tace.ru:60889/announce
 http://6.tracker.devnak.win:6969/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org:80/bt:80/announce.php
-http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
+http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
@@ -2222,6 +2221,7 @@ udp://83.6.231.132:6969/announce
 udp://83.6.231.164:6969/announce
 udp://83.6.231.203:6969/announce
 udp://83.6.233.63:6969/announce
+udp://84.54.51.78:6969/announce
 udp://85.17.19.180:80/announce
 udp://85.239.33.28:6969/announce
 udp://86.127.239.222:1234/announce
