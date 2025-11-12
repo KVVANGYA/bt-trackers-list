@@ -330,10 +330,10 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.188:80/announce
+http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
-http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -1424,7 +1424,7 @@ https://retracker2.x2k.ru/announce
 https://secure.pow7.com/announce
 https://seeders-paradise.org/announce
 https://shahidrazi.online:443/announce
-https://socket.onvo.me:443/announce
+https://socket.onvo.me/announce
 https://sparkle.ghostchu-services.top/announce
 https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8171dfc880dd42f0b226db63b8d3a53b"}'></script><!-- Cloudflare Pages Analytics --></body>
 https://t.213891.xyz:443/announce
