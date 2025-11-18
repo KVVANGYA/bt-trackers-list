@@ -300,6 +300,7 @@ http://200.111.152.53:1337/announce
 http://200.111.152.54:1337/announce
 http://200.148.11.147:6969/announce
 http://200.161.254.194:6969/announce
+http://200.161.254.20:6969/announce
 http://200.168.117.55:6969/announce
 http://200.170.109.89:6969/announce
 http://200.170.110.108:6969/announce
@@ -330,8 +331,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
+http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.187:80/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.189/announce
@@ -1349,6 +1350,7 @@ https://api.ipv4online.uk:443/announce
 https://atrack.pow7.com/announce
 https://bittorrent.gongt.net:443/announce
 https://bittorrent.service.gongt.me:59443/announce
+https://bittracker.nekosunevr.co.uk:443/announce
 https://bot.ponomar-sibir.ru/announce
 https://bruisedfumblingmotion.sddsdsdsddsdss.repl.co/announce
 https://bt.080609.xyz:443/announce
@@ -1650,7 +1652,7 @@ https://tracker3.ctix.cn/announce
 https://tracker3.leaves.red/announce
 https://tracker6.lelux.fi/announce
 https://trackers.mlsub.net:443/announce
-https://trackers.nekosunevr.co.uk:443/announce
+https://trackers.nekosunevr.co.uk/announce
 https://trackers.ptlsp.com/announce
 https://trackers.run/announce
 https://trackme.theom.nz:443/announce
@@ -1911,6 +1913,7 @@ udp://1c.premierzal.ru:6969/announce
 udp://200.111.152.54:1337/announce
 udp://200.148.11.147:6969/announce
 udp://200.161.254.194:6969/announce
+udp://200.161.254.20:6969/announce
 udp://200.168.117.55:6969/announce
 udp://200.170.110.108:6969/announce
 udp://200.170.113.35:6969/announce
