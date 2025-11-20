@@ -137,7 +137,7 @@ http://152.249.97.159:6969/announce
 http://152.67.8.255:6969/announce
 http://154.29.145.56:17715/announce
 http://155.248.200.105/announce
-http://156.234.201.18:80/announce
+http://156.234.201.18/announce
 http://157.131.124.190:6969/announce
 http://157.7.202.64:8080/announce
 http://157.90.169.123/announce
@@ -264,6 +264,7 @@ http://189.18.97.201:6969/announce
 http://189.69.167.130:6969/announce
 http://189.69.168.180:6969/announce
 http://189.69.169.237:6969/announce
+http://189.69.169.89:6969/announce
 http://189.69.171.209:6969/announce
 http://189.69.171.75:6969/announce
 http://189.69.171.84:6969/announce
@@ -351,8 +352,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
+http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
-http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://212.6.3.67/announce
 http://212.60.5.147:2710/announce
@@ -427,7 +428,6 @@ http://35.227.59.57:443/announce
 http://35.227.59.57:6960/announce
 http://35.227.59.57:6969/announce
 http://35.227.59.57:80/announce
-http://35.227.59.57:80/announce.php
 http://37.19.5.139:6969/announce
 http://37.19.5.155:6881/announce
 http://37.235.174.46:2710/announce
@@ -1201,7 +1201,7 @@ http://tracker.zhuqiy.dgj055.icu:80/announce
 http://tracker.zhuqiy.eu.org:36107/announce
 http://tracker.zhuqiy.top/announce
 http://tracker01.loveapp.com:6789/announce
-http://tracker1.bt.moack.co.kr:80/announce
+http://tracker1.bt.moack.co.kr/announce
 http://tracker1.itzmx.com80/announce
 http://tracker1.itzmx.com:8080/announce
 http://tracker1.torrentino.com/announce
@@ -1874,6 +1874,7 @@ udp://189.18.97.201:6969/announce
 udp://189.69.167.130:6969/announce
 udp://189.69.168.180:6969/announce
 udp://189.69.169.237:6969/announce
+udp://189.69.169.89:6969/announce
 udp://189.69.171.209:6969/announce
 udp://189.69.171.75:6969/announce
 udp://189.69.171.84:6969/announce
