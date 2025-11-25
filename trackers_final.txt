@@ -196,6 +196,7 @@ http://177.188.141.137:6969/announce
 http://177.188.141.175:6969/announce
 http://177.188.141.32:6969/announce
 http://177.215.65.176:6969/announce
+http://177.215.67.115:6969/announce
 http://177.215.67.165:6969/announce
 http://177.215.67.185:6969/announce
 http://177.27.223.184:6969/announce
@@ -340,8 +341,8 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.188:80/announce
 http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 http://211.75.205.190/announce
@@ -358,8 +359,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
+http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
-http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://212.6.3.67/announce
 http://212.60.5.147:2710/announce
@@ -1002,7 +1003,7 @@ http://tr.cili001.com70/announce
 http://tr.cili001.com:8070/announce
 http://tr.highstar.shop:80/announce
 http://tr.kxmp.cf:80/announce
-http://tr.nyacat.pw/announce
+http://tr.nyacat.pw:80/announce
 http://tr1.aag.moe:2095/announce
 http://tracker-cdn.moeking.me:2095/announce
 http://tracker-rh.zhuqiy.eu.org:80/announce
@@ -1815,6 +1816,7 @@ udp://177.172.67.94:6969/announce
 udp://177.188.141.175:6969/announce
 udp://177.188.141.32:6969/announce
 udp://177.215.65.176:6969/announce
+udp://177.215.67.115:6969/announce
 udp://177.215.67.165:6969/announce
 udp://177.27.223.184:6969/announce
 udp://177.27.223.186:6969/announce
