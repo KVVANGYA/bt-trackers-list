@@ -342,8 +342,8 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187:6969/announce
 http://211.75.205.187:80/announce
-http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.188:80/announce
 http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 http://211.75.205.190/announce
@@ -425,6 +425,7 @@ http://34.94.76.146:443/announce
 http://34.94.76.146:6960/announce
 http://34.94.76.146:6969/announce
 http://34.94.76.146:80/announce
+http://34.94.76.146:80/announce.php
 http://35.227.12.84/announce
 http://35.227.12.84:2710/announce
 http://35.227.59.57:11450/announce
@@ -1681,7 +1682,7 @@ https://x7x.up.railway.app/announce
 https://xtremex.herokuapp.com:443/announce
 https://yolo.liberbear.com/announce
 https://yolo.liberbear.com:80/announce
-https://yuki.bt.bontal.net/announce
+https://yuki.bt.bontal.net:443/announce
 https://zer0day.000webhostapp.com/announce
 udp://0205.uptm.ch:6969/announce
 udp://10.rarbg.com/announce
