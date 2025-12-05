@@ -17,6 +17,7 @@ http://107.150.14.110:6969/announce
 http://107.152.127.9:6969/announce
 http://107.152.45.140/announce
 http://107.189.10.20.sslip.io:7777/announce
+http://107.189.2.131:1337/announce
 http://107.189.31.134:6969/announce
 http://107.189.7.143:6969/announce
 http://109.121.134.121:1337/announce
@@ -182,6 +183,7 @@ http://177.144.178.170:6969/announce
 http://177.144.178.39:6969/announce
 http://177.172.61.236:6969/announce
 http://177.172.61.249:6969/announce
+http://177.172.61.33:6969/announce
 http://177.172.62.168:6969/announce
 http://177.172.62.179:6969/announce
 http://177.172.62.185:6969/announce
@@ -437,7 +439,6 @@ http://35.227.59.57:443/announce
 http://35.227.59.57:6960/announce
 http://35.227.59.57:6969/announce
 http://35.227.59.57:80/announce
-http://35.227.59.57:80/announce.php
 http://37.19.5.139:6969/announce
 http://37.19.5.155:6881/announce
 http://37.235.174.46:2710/announce
@@ -1811,6 +1812,7 @@ udp://177.139.47.40:6969/announce
 udp://177.144.178.170:6969/announce
 udp://177.144.178.39:6969/announce
 udp://177.172.61.249:6969/announce
+udp://177.172.61.33:6969/announce
 udp://177.172.62.168:6969/announce
 udp://177.172.62.185:6969/announce
 udp://177.172.65.102:6969/announce
