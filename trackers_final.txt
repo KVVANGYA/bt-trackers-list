@@ -346,12 +346,12 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
+http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.187:80/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
-http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
+http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -1473,7 +1473,7 @@ https://threads.canofsocks.com:443/announce
 https://tk.mabo.ltd:443/announce
 https://torrent-tracker.hama3.net/announce
 https://torrent.gresille.org/announce
-https://torrent.opiums.eu:443/announce
+https://torrent.opiums.eu/announce
 https://torrent.tracker.durukanbal.com:443/announce
 https://torrent.ubuntu.com:443/announce
 https://torrents.linuxmint.com:443/announce
@@ -1692,7 +1692,7 @@ https://x7x.up.railway.app/announce
 https://xtremex.herokuapp.com:443/announce
 https://yolo.liberbear.com/announce
 https://yolo.liberbear.com:80/announce
-https://yuki.bt.bontal.net:443/announce
+https://yuki.bt.bontal.net/announce
 https://zer0day.000webhostapp.com/announce
 udp://0205.uptm.ch:6969/announce
 udp://10.rarbg.com/announce
