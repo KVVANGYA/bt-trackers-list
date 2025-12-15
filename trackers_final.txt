@@ -345,12 +345,12 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
-http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.187:80/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
-http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -1488,7 +1488,7 @@ https://tr-zhuqiy-1.dgj055.icu:443/announce
 https://tr-zhuqiy-2.dgj055.icu:443/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -2202,6 +2202,7 @@ udp://79.117.28.48:1234/announce
 udp://79.117.5.107:1234/announce
 udp://79.117.63.250:1234/announce
 udp://7p41a8967.wicp.vip:22222/announce
+udp://80.71.224.126:6969/announce
 udp://82.156.24.219:6969/announce
 udp://82.65.115.10:6969/announce
 udp://82.67.44.197:9999/announce
