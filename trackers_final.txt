@@ -316,6 +316,7 @@ http://200.161.254.131:6969/announce
 http://200.161.254.194:6969/announce
 http://200.161.254.20:6969/announce
 http://200.168.117.55:6969/announce
+http://200.170.109.125:6969/announce
 http://200.170.109.89:6969/announce
 http://200.170.110.108:6969/announce
 http://200.170.113.35:6969/announce
@@ -365,8 +366,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
-http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
+http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://212.6.3.67/announce
@@ -451,6 +452,7 @@ http://37.27.188.67:6969/announce
 http://38.145.197.79:6961/announce
 http://4.tracker.devnak.win:6969/announce
 http://43.139.20.56:6969/announce
+http://43.250.54.137:6969/announce
 http://44.30.4.3:6969/announce
 http://44.30.4.4:6969/announce
 http://44.30.4.70:6969/announce
@@ -513,8 +515,8 @@ http://5rt.tace.ru:60889/announce
 http://6.tracker.devnak.win:6969/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org:80/bt:80/announce.php
+http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
-http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
@@ -1488,7 +1490,7 @@ https://tr-zhuqiy-1.dgj055.icu:443/announce
 https://tr-zhuqiy-2.dgj055.icu:443/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga/announce
+https://tr.abir.ga:443/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -1691,7 +1693,7 @@ https://x7x.up.railway.app/announce
 https://xtremex.herokuapp.com:443/announce
 https://yolo.liberbear.com/announce
 https://yolo.liberbear.com:80/announce
-https://yuki.bt.bontal.net:443/announce
+https://yuki.bt.bontal.net/announce
 https://zer0day.000webhostapp.com/announce
 udp://0205.uptm.ch:6969/announce
 udp://10.rarbg.com/announce
@@ -1940,7 +1942,6 @@ udp://194.62.248.73:15480/announce
 udp://194.87.68.142:6969/announce
 udp://195.123.209.37:1337/announce
 udp://195.123.209.40:80/announce
-udp://195.234.62.166:6969/announce
 udp://198.100.149.66:6969/announce
 udp://1c.premierzal.ru:6969/announce
 udp://200.111.152.54:1337/announce
@@ -1949,6 +1950,7 @@ udp://200.161.254.131:6969/announce
 udp://200.161.254.194:6969/announce
 udp://200.161.254.20:6969/announce
 udp://200.168.117.55:6969/announce
+udp://200.170.109.125:6969/announce
 udp://200.170.110.108:6969/announce
 udp://200.170.113.35:6969/announce
 udp://200.170.113.5:6969/announce
@@ -2105,9 +2107,11 @@ udp://37.27.4.53:6969/announce
 udp://37.59.48.81:6969/announce
 udp://4.tracker.devnak.win:6969/announce
 udp://43.154.112.29:17272/announce
+udp://43.250.54.137:6969/announce
 udp://44.30.4.3:6969/announce
 udp://44.30.4.4:6969/announce
 udp://45.13.119.213:6969/announce
+udp://45.134.88.121:6969/announce
 udp://45.154.214.21:6969/announce
 udp://45.154.96.35:6969/announce
 udp://45.155.53.144:6969/announce
@@ -2519,6 +2523,7 @@ udp://llideong.cn:6969/announce
 udp://lloria.fr:6969/announce
 udp://ln.mtahost.co:6969/announce
 udp://lopatins.ru:5972/announce
+udp://lotus-eater.mywire.org:9001/announce
 udp://lucke.fenesisu.moe:6969/announce
 udp://lulz.vpndb.org:3000/announce
 udp://madiator.com:6969/announce
