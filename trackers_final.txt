@@ -322,6 +322,7 @@ http://1c.premierzal.ru:6969/announce
 http://200.111.152.53:1337/announce
 http://200.111.152.54:1337/announce
 http://200.148.11.147:6969/announce
+http://200.148.11.61:6969/announce
 http://200.161.254.131:6969/announce
 http://200.161.254.194:6969/announce
 http://200.161.254.20:6969/announce
@@ -1006,7 +1007,7 @@ http://thetracker.org:80/announce
 http://thitgaluoc.dynu.net:6969/announce
 http://tinfoil.space:6969/announce
 http://tk.cubicview.site/announce
-http://tk.greedland.net:80/announce
+http://tk.greedland.net/announce
 http://tk.leechshield.link/announce
 http://tk.nvacg.org:3333/announce
 http://tk.trojangogogo.site:8989/announce
@@ -2005,6 +2006,7 @@ udp://198.91.25.157:8000/announce
 udp://1c.premierzal.ru:6969/announce
 udp://200.111.152.54:1337/announce
 udp://200.148.11.147:6969/announce
+udp://200.148.11.61:6969/announce
 udp://200.161.254.131:6969/announce
 udp://200.161.254.194:6969/announce
 udp://200.161.254.20:6969/announce
@@ -2514,6 +2516,7 @@ udp://discord.heihachi.pw:6969/announce
 udp://dmitrynegoda.com:6969/announce
 udp://dns.xxtor.com:53/announce
 udp://download.nerocloud.me:6969/announce
+udp://dpiui.reedlan.com:6969/announce
 udp://dyndns.xionxiii.ovh:6969/announce
 udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
 udp://eccologic.net:6969/announce
@@ -2811,6 +2814,7 @@ udp://tracker.bitcoinindia.space:6969/announce
 udp://tracker.bitsearch.to:1337/announce
 udp://tracker.bittor.pw:1337/announce
 udp://tracker.blacksparrowmedia.net:6969/announce
+udp://tracker.bluefrog.pw:2710/announce
 udp://tracker.bontal.net:6969/announce
 udp://tracker.breizh.pm:6969/announce
 udp://tracker.btsync.gq:233/announce
