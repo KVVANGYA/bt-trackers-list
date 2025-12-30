@@ -214,6 +214,7 @@ http://179.118.132.77:6969/announce
 http://179.118.133.224:6969/announce
 http://179.175.247.60:6969/announce
 http://179.175.247.98:6969/announce
+http://179.98.254.109:6969/announce
 http://179.98.254.138:6969/announce
 http://179.98.254.201:6969/announce
 http://179.98.254.95:6969/announce
@@ -359,12 +360,12 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
-http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.187:80/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
-http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -1533,7 +1534,7 @@ https://tr-zhuqiy-1.dgj055.icu:443/announce
 https://tr-zhuqiy-2.dgj055.icu:443/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -1895,6 +1896,7 @@ udp://179.118.129.194:6969/announce
 udp://179.118.132.77:6969/announce
 udp://179.175.247.60:6969/announce
 udp://179.43.155.30:6969/announce
+udp://179.98.254.109:6969/announce
 udp://179.98.254.138:6969/announce
 udp://179.98.254.201:6969/announce
 udp://179.98.254.95:6969/announce
