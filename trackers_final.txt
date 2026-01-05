@@ -264,6 +264,7 @@ http://187.56.205.91:6969/announce
 http://187.57.130.109:6969/announce
 http://187.57.130.147:6969/announce
 http://187.57.131.202:6969/announce
+http://187.57.132.20:6969/announce
 http://187.57.132.246:6969/announce
 http://187.57.14.62:6969/announce
 http://187.57.229.141:6969/announce
@@ -382,8 +383,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
+http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
-http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://212.6.3.67/announce
@@ -1607,7 +1608,7 @@ https://tracker.flashtorrents.org:6969/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.fr.eu.org/announce
 https://tracker.gbitt.info:443/announce
-https://tracker.gcrenwp.top:443/announce
+https://tracker.gcrenwp.top/announce
 https://tracker.gcrreen.xyz/announce
 https://tracker.ghostchu-services.top:443/announce
 https://tracker.grepler.com:6969/announce
@@ -1801,6 +1802,7 @@ udp://125.227.79.123:6969/announce
 udp://125.227.79.123:80/announce
 udp://128.199.70.66:5944/announce
 udp://130.61.158.165:6969/announce
+udp://132.226.6.145:6969/announce
 udp://135.125.106.92:6969/announce
 udp://135.125.202.143:6969/announce
 udp://135.125.236.64:6969/announce
@@ -1954,6 +1956,7 @@ udp://187.56.205.91:6969/announce
 udp://187.57.130.109:6969/announce
 udp://187.57.130.147:6969/announce
 udp://187.57.131.202:6969/announce
+udp://187.57.132.20:6969/announce
 udp://187.57.132.246:6969/announce
 udp://187.57.229.141:6969/announce
 udp://188.165.253.109:1337/announce
@@ -2502,6 +2505,7 @@ udp://cloud.arzanmodern.ir:6969/announce
 udp://cloud.samtechnic.ir:6969/announce
 udp://cn.pcfreetime.com:6969/announce
 udp://code2chicken.nl:6969/announce
+udp://colivioo.com:6969/announce
 udp://commento.getblog.cn:6969/announce
 udp://concen.org:6969/announce
 udp://coppersurfer.tk:6969/announce
@@ -2995,6 +2999,7 @@ udp://tracker.vanitycore.co:6969/announce
 udp://tracker.vds.nz:6969/announce
 udp://tracker.vraphim.com:6969/announce
 udp://tracker.vrpnet.org:6969/announce
+udp://tracker.vulnix.sh:6969/announce
 udp://tracker.waaa.moe:6969/announce
 udp://tracker.wellknownclub.net:8100/announce
 udp://tracker.wepzone.net:6969/announce
