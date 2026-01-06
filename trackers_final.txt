@@ -197,6 +197,7 @@ http://177.172.66.120:6969/announce
 http://177.172.66.210:6969/announce
 http://177.172.67.247:6969/announce
 http://177.172.67.94:6969/announce
+http://177.173.31.33:6969/announce
 http://177.188.141.137:6969/announce
 http://177.188.141.175:6969/announce
 http://177.188.141.32:6969/announce
@@ -365,10 +366,10 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
-http://211.75.205.188:80/announce
-http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
+http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -1052,7 +1053,7 @@ http://tr.cili001.com70/announce
 http://tr.cili001.com:8070/announce
 http://tr.highstar.shop:80/announce
 http://tr.kxmp.cf:80/announce
-http://tr.nyacat.pw/announce
+http://tr.nyacat.pw:80/announce
 http://tr1.aag.moe:2095/announce
 http://tracker-cdn.moeking.me:2095/announce
 http://tracker-rh.zhuqiy.eu.org:80/announce
@@ -1608,7 +1609,7 @@ https://tracker.flashtorrents.org:6969/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.fr.eu.org/announce
 https://tracker.gbitt.info:443/announce
-https://tracker.gcrenwp.top/announce
+https://tracker.gcrenwp.top:443/announce
 https://tracker.gcrreen.xyz/announce
 https://tracker.ghostchu-services.top:443/announce
 https://tracker.grepler.com:6969/announce
@@ -1885,6 +1886,7 @@ udp://177.172.66.120:6969/announce
 udp://177.172.66.210:6969/announce
 udp://177.172.67.247:6969/announce
 udp://177.172.67.94:6969/announce
+udp://177.173.31.33:6969/announce
 udp://177.188.141.175:6969/announce
 udp://177.188.141.32:6969/announce
 udp://177.215.65.176:6969/announce
@@ -3084,6 +3086,7 @@ udp://www.eddie4.nl:6969/announce
 udp://www.loushao.net:8080/announce
 udp://www.nartlof.com.br:6969/announce
 udp://www.peckservers.com:9000/announce
+udp://www.theoccult.bz:3010/announce
 udp://www.torrent.eu.org:451/announce
 udp://www.tvnihon.com:6969/announce
 udp://x.hz.is:6969/announce
