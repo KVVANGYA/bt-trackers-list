@@ -197,6 +197,7 @@ http://177.172.65.102:6969/announce
 http://177.172.65.168:6969/announce
 http://177.172.66.120:6969/announce
 http://177.172.66.210:6969/announce
+http://177.172.67.13:6969/announce
 http://177.172.67.247:6969/announce
 http://177.172.67.94:6969/announce
 http://177.173.31.33:6969/announce
@@ -388,8 +389,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
+http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
-http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://212.6.3.67/announce
@@ -543,8 +544,8 @@ http://5rt.tace.ru:60889/announce
 http://6.tracker.devnak.win:6969/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org:80/bt:80/announce.php
-http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
+http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
@@ -979,8 +980,8 @@ http://rt.tace.ru/announce
 http://s926723.ha016.t.mydomain.zone:80/announce
 http://saltwood.top:6969/announce
 http://secure.pow7.com/announce
-http://seeders-paradise.org/announce
-http://servandroidkino.ru:80/announce
+http://seeders-paradise.org:80/announce
+http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
 http://share.hkg-fansub.info:80/announce
@@ -1105,7 +1106,7 @@ http://tracker.city9x.com:2710/announce
 http://tracker.computel.fr/announce
 http://tracker.coppersurfer.site:2710/announce
 http://tracker.coppersurfer.tk:6969/announce
-http://tracker.corpscorp.online/announce
+http://tracker.corpscorp.online:80/announce
 http://tracker.cubicview.site/announce
 http://tracker.cutie.dating:80/announce
 http://tracker.darkness.services:6969/announce
@@ -1149,7 +1150,7 @@ http://tracker.h0me.cc:8880/announce
 http://tracker.hiyj.cn/announce
 http://tracker.ilibr.org:80/announce
 http://tracker.internetwarriors.net:1337/announce
-http://tracker.ipv6tracker.org:80/announce
+http://tracker.ipv6tracker.org/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.iro.moe/announce
 http://tracker.ismaarino.com:8880/announce
@@ -1720,7 +1721,7 @@ https://tracker.zhuqiy.top:443/announce
 https://tracker.zhuque.in/announce
 https://tracker01.ilovelemonhd.me/announce
 https://tracker1.520.jp:443/announce
-https://tracker1.ctix.cn:443/announce
+https://tracker1.ctix.cn/announce
 https://tracker1.loli.co.nz/announce
 https://tracker1.wasabii.com.tw:6969/announce
 https://tracker1.wimix.org/announce
@@ -1750,7 +1751,7 @@ https://x7x.up.railway.app/announce
 https://xtremex.herokuapp.com:443/announce
 https://yolo.liberbear.com/announce
 https://yolo.liberbear.com:80/announce
-https://yuki.bt.bontal.net/announce
+https://yuki.bt.bontal.net:443/announce
 https://zer0day.000webhostapp.com/announce
 udp://0205.uptm.ch:6969/announce
 udp://10.rarbg.com/announce
@@ -1894,6 +1895,7 @@ udp://177.172.65.102:6969/announce
 udp://177.172.65.168:6969/announce
 udp://177.172.66.120:6969/announce
 udp://177.172.66.210:6969/announce
+udp://177.172.67.13:6969/announce
 udp://177.172.67.247:6969/announce
 udp://177.172.67.94:6969/announce
 udp://177.173.31.33:6969/announce
@@ -2956,6 +2958,7 @@ udp://tracker.openbittorrent.com:80/announce
 udp://tracker.openbtba.com:6969/announce
 udp://tracker.opentorrent.top:6969/announce
 udp://tracker.opentrackr.org:1337/announce
+udp://tracker.orsvarn.com:6969/announce
 udp://tracker.pcfreetime.com:6969/announce
 udp://tracker.picotorrent.one:6969/announce
 udp://tracker.pimpmyworld.to:6969/announce
