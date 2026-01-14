@@ -968,7 +968,7 @@ http://retracker.mgts.by/announce
 http://retracker.ohys.net:80/announce
 http://retracker.seven-sky.net/announce
 http://retracker.sevstar.net:2710/announce
-http://retracker.spark-rostov.ru/announce
+http://retracker.spark-rostov.ru:80/announce
 http://retracker.telecom.by/announce
 http://retracker.x2k.ru/announce
 http://retracker.xxtor.com/announce
@@ -982,7 +982,7 @@ http://s926723.ha016.t.mydomain.zone:80/announce
 http://saltwood.top:6969/announce
 http://secure.pow7.com/announce
 http://seeders-paradise.org:80/announce
-http://servandroidkino.ru/announce
+http://servandroidkino.ru:80/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
 http://share.hkg-fansub.info/announce.php
@@ -1151,7 +1151,7 @@ http://tracker.h0me.cc:8880/announce
 http://tracker.hiyj.cn/announce
 http://tracker.ilibr.org:80/announce
 http://tracker.internetwarriors.net:1337/announce
-http://tracker.ipv6tracker.org/announce
+http://tracker.ipv6tracker.org:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.iro.moe/announce
 http://tracker.ismaarino.com:8880/announce
@@ -1547,7 +1547,7 @@ https://tr-zhuqiy-1.dgj055.icu:443/announce
 https://tr-zhuqiy-2.dgj055.icu:443/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -2281,6 +2281,7 @@ udp://65.108.102.76:6969/announce
 udp://65.21.91.32:6969/announce
 udp://68.193.189.231:6969/announce
 udp://69.30.224.166:6969/announce
+udp://69.30.233.234:6969/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
 udp://6rt.tace.ru:80/announce
 udp://7.rarbg.me:2710/announce
