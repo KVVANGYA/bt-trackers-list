@@ -290,6 +290,7 @@ http://189.18.96.199:6969/announce
 http://189.18.96.56:6969/announce
 http://189.18.97.116:6969/announce
 http://189.18.97.201:6969/announce
+http://189.69.167.105:6969/announce
 http://189.69.167.130:6969/announce
 http://189.69.168.180:6969/announce
 http://189.69.169.237:6969/announce
@@ -372,8 +373,8 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.188:80/announce
 http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 http://211.75.205.190/announce
@@ -986,8 +987,8 @@ http://seeders-paradise.org/announce
 http://servandroidkino.ru:80/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
+http://share.hkg-fansub.info/announce.php
 http://share.hkg-fansub.info:80/announce
-http://share.hkg-fansub.info:80/announce.php
 http://shogiroom.com:6969/announce
 http://shubt.net:2710/announce
 http://siambit.com:80/announce
@@ -1061,7 +1062,7 @@ http://tr.cili001.com70/announce
 http://tr.cili001.com:8070/announce
 http://tr.highstar.shop:80/announce
 http://tr.kxmp.cf:80/announce
-http://tr.nyacat.pw:80/announce
+http://tr.nyacat.pw/announce
 http://tr1.aag.moe:2095/announce
 http://tracker-cdn.moeking.me:2095/announce
 http://tracker-rh.zhuqiy.eu.org:80/announce
@@ -1152,7 +1153,7 @@ http://tracker.h0me.cc:8880/announce
 http://tracker.hiyj.cn/announce
 http://tracker.ilibr.org:80/announce
 http://tracker.internetwarriors.net:1337/announce
-http://tracker.ipv6tracker.org/announce
+http://tracker.ipv6tracker.org:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.iro.moe/announce
 http://tracker.ismaarino.com:8880/announce
@@ -1666,6 +1667,7 @@ https://tracker.loligirl.cn/announce
 https://tracker.m-team.cc/announce.php
 https://tracker.m-team.cc:443/announce
 https://tracker.madtia.cc/announce
+https://tracker.maya.no.eu.org:443/announce
 https://tracker.mg64.net:6881/announce
 https://tracker.midnightprogrammer.net/announce
 https://tracker.mlsub.net/announce
@@ -1849,6 +1851,7 @@ udp://151.243.109.110:6969/announce
 udp://151.243.109.163:6969/announce
 udp://151.80.120.114:2710/announce
 udp://152.231.114.120:1337/announce
+udp://152.231.114.51:1337/announce
 udp://152.243.213.163:6969/announce
 udp://152.249.214.198:6969/announce
 udp://152.249.214.53:6969/announce
@@ -1987,6 +1990,7 @@ udp://189.18.163.167:6969/announce
 udp://189.18.96.56:6969/announce
 udp://189.18.97.116:6969/announce
 udp://189.18.97.201:6969/announce
+udp://189.69.167.105:6969/announce
 udp://189.69.167.130:6969/announce
 udp://189.69.168.180:6969/announce
 udp://189.69.169.237:6969/announce
