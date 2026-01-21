@@ -261,6 +261,7 @@ http://187.11.73.213:6969/announce
 http://187.11.74.138:6969/announce
 http://187.11.75.17:6969/announce
 http://187.11.75.196:6969/announce
+http://187.11.75.60:6969/announce
 http://187.34.25.113:6969/announce
 http://187.56.163.140:6969/announce
 http://187.56.163.73:6969/announce
@@ -375,8 +376,8 @@ http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
-http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -488,7 +489,7 @@ http://44.30.4.3:6969/announce
 http://44.30.4.4:6969/announce
 http://44.30.4.70:6969/announce
 http://45.13.119.213:6969/announce
-http://45.146.254.59:80/announce
+http://45.146.254.59/announce
 http://45.154.253.10/announce
 http://45.154.253.4/announce
 http://45.154.253.5/announce
@@ -986,8 +987,8 @@ http://seeders-paradise.org/announce
 http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
-http://share.hkg-fansub.info/announce.php
 http://share.hkg-fansub.info:80/announce
+http://share.hkg-fansub.info:80/announce.php
 http://shogiroom.com:6969/announce
 http://shubt.net:2710/announce
 http://siambit.com:80/announce
@@ -1108,9 +1109,9 @@ http://tracker.city9x.com:2710/announce
 http://tracker.computel.fr/announce
 http://tracker.coppersurfer.site:2710/announce
 http://tracker.coppersurfer.tk:6969/announce
-http://tracker.corpscorp.online/announce
+http://tracker.corpscorp.online:80/announce
 http://tracker.cubicview.site/announce
-http://tracker.cutie.dating:80/announce
+http://tracker.cutie.dating/announce
 http://tracker.darkness.services:6969/announce
 http://tracker.ddunlimited.net:6969/announce
 http://tracker.devil-torrents.pl/announce
@@ -1548,7 +1549,7 @@ https://tr-zhuqiy-1.dgj055.icu:443/announce
 https://tr-zhuqiy-2.dgj055.icu:443/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga/announce
+https://tr.abir.ga:443/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -1969,6 +1970,7 @@ udp://187.11.73.213:6969/announce
 udp://187.11.74.138:6969/announce
 udp://187.11.75.17:6969/announce
 udp://187.11.75.196:6969/announce
+udp://187.11.75.60:6969/announce
 udp://187.34.25.113:6969/announce
 udp://187.56.163.140:6969/announce
 udp://187.56.205.91:6969/announce
