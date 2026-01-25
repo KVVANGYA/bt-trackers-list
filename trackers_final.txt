@@ -126,6 +126,7 @@ http://144.76.118.107:6969/announce
 http://145.223.96.109:8000/announce
 http://147job.com:6969/announce
 http://148.252.75.241:6969/announce
+http://15.204.239.175:6969/announce
 http://15.204.57.168:6969/announce
 http://151.115.49.115:1337/announce
 http://152.231.114.120:1337/announce
@@ -229,6 +230,7 @@ http://179.98.254.201:6969/announce
 http://179.98.254.95:6969/announce
 http://179.98.51.208:6969/announce
 http://179.98.51.248:6969/announce
+http://179.98.51.66:6969/announce
 http://180.113.224.97:6969/announce
 http://180.113.227.211:6969/announce
 http://180.97.219.76:8070/announce
@@ -377,10 +379,10 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.188:80/announce
+http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
-http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -877,6 +879,7 @@ http://leidenfro.st:6969/announce
 http://li1406-230.members.linode.com:6969/announce
 http://li2021-95.members.linode.com:6969/announce
 http://lima-peru.subventas.com:443/announce
+http://litter.fluffykitten.moe:1337/announce
 http://lucke.fenesisu.moe:6969/announce
 http://mail.lakameraobscura.com:6969/announce
 http://mail.martin-gebhardt.com:8443/announce
@@ -1552,7 +1555,7 @@ https://tr-zhuqiy-1.dgj055.icu:443/announce
 https://tr-zhuqiy-2.dgj055.icu:443/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -1862,6 +1865,7 @@ udp://152.249.214.68:6969/announce
 udp://152.249.214.74:6969/announce
 udp://152.53.152.105:1984/announce
 udp://152.53.152.105:54123/announce
+udp://154.40.43.165:6969/announce
 udp://156.234.201.18:80/announce
 udp://157.131.124.190:6969/announce
 udp://158.101.161.60:3131/announce
@@ -1934,6 +1938,7 @@ udp://179.98.254.201:6969/announce
 udp://179.98.254.95:6969/announce
 udp://179.98.51.208:6969/announce
 udp://179.98.51.248:6969/announce
+udp://179.98.51.66:6969/announce
 udp://18.191.163.220:6969/announce
 udp://181.214.58.63:6969/announce
 udp://182.176.139.129:6969/announce
@@ -2648,6 +2653,7 @@ udp://li1406-230.members.linode.com:6969/announce
 udp://li2021-95.members.linode.com:6969/announce
 udp://line-net.ru:6969/announce
 udp://linfan.moe:6969/announce
+udp://litter.fluffykitten.moe:1337/announce
 udp://llideong.cn:6969/announce
 udp://lloria.fr:6969/announce
 udp://ln.mtahost.co:6969/announce
