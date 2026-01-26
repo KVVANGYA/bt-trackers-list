@@ -253,6 +253,7 @@ http://186.10.170.186:1337/announce
 http://186.10.170.23:1337/announce
 http://186.10.170.30:1337/announce
 http://186.10.170.56:1337/announce
+http://186.10.170.58:1337/announce
 http://186.10.170.71:1337/announce
 http://186.10.170.97:1337/announce
 http://186.10.172.248:1337/announce
@@ -343,6 +344,7 @@ http://200.148.11.61:6969/announce
 http://200.161.254.131:6969/announce
 http://200.161.254.194:6969/announce
 http://200.161.254.20:6969/announce
+http://200.168.116.107:6969/announce
 http://200.168.116.200:6969/announce
 http://200.168.117.55:6969/announce
 http://200.170.109.125:6969/announce
@@ -397,8 +399,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
+http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
-http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://211.97.119.88:2710/announce
@@ -552,8 +554,8 @@ http://5rt.tace.ru:60889/announce
 http://6.tracker.devnak.win:6969/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org:80/bt:80/announce.php
-http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
+http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
@@ -1555,7 +1557,7 @@ https://tr-zhuqiy-1.dgj055.icu:443/announce
 https://tr-zhuqiy-2.dgj055.icu:443/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga/announce
+https://tr.abir.ga:443/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -2055,6 +2057,7 @@ udp://200.148.11.61:6969/announce
 udp://200.161.254.131:6969/announce
 udp://200.161.254.194:6969/announce
 udp://200.161.254.20:6969/announce
+udp://200.168.116.107:6969/announce
 udp://200.168.116.200:6969/announce
 udp://200.168.117.55:6969/announce
 udp://200.170.109.125:6969/announce
@@ -3118,6 +3121,7 @@ udp://vibe.community:6969/announce
 udp://vibe.sleepyinternetfun.xyz:1738/announce
 udp://vm3268418.24ssd.had.wf:6969/announce
 udp://vps-dd0a0715.vps.ovh.net:6969/announce
+udp://vps02.net.orel.ru:80/announce
 udp://wambo.club:1337/announce
 udp://wegkxfcivgx.ydns.eu:80/announce
 udp://wepzone.net:6969/announce
