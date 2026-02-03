@@ -149,6 +149,7 @@ http://157.90.169.123/announce
 http://158.101.137.177:6969/announce
 http://158.69.146.212:7777/announce
 http://159.148.57.222:6969/announce
+http://159.195.43.181:6969/announce
 http://159.69.65.157:6969/announce
 http://160.251.231.187:6969/announce
 http://160.251.78.190:6969/announce
@@ -259,6 +260,7 @@ http://186.10.170.71:1337/announce
 http://186.10.170.97:1337/announce
 http://186.10.172.248:1337/announce
 http://187.10.24.160:6969/announce
+http://187.11.72.168:6969/announce
 http://187.11.72.188:6969/announce
 http://187.11.72.236:6969/announce
 http://187.11.73.178:6969/announce
@@ -405,8 +407,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
+http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
-http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://211.97.119.88:2710/announce
@@ -565,8 +567,8 @@ http://5rt.tace.ru:60889/announce
 http://6.tracker.devnak.win:6969/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org:80/bt:80/announce.php
-http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
+http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
@@ -1004,7 +1006,7 @@ http://s926723.ha016.t.mydomain.zone:80/announce
 http://saltwood.top:6969/announce
 http://secure.pow7.com/announce
 http://seeders-paradise.org:80/announce
-http://servandroidkino.ru:80/announce
+http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
 http://share.hkg-fansub.info:80/announce
@@ -1082,7 +1084,7 @@ http://tr.cili001.com70/announce
 http://tr.cili001.com:8070/announce
 http://tr.highstar.shop:80/announce
 http://tr.kxmp.cf:80/announce
-http://tr.nyacat.pw/announce
+http://tr.nyacat.pw:80/announce
 http://tr1.aag.moe:2095/announce
 http://tracker-cdn.moeking.me:2095/announce
 http://tracker-rh.zhuqiy.eu.org:80/announce
@@ -1643,7 +1645,7 @@ https://tracker.flashtorrents.org:6969/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.fr.eu.org/announce
 https://tracker.gbitt.info:443/announce
-https://tracker.gcrenwp.top/announce
+https://tracker.gcrenwp.top:443/announce
 https://tracker.gcrreen.xyz/announce
 https://tracker.ghostchu-services.top:443/announce
 https://tracker.grepler.com:6969/announce
@@ -1992,6 +1994,7 @@ udp://186.10.170.97:1337/announce
 udp://186.10.172.248:1337/announce
 udp://186.10.181.5:1337/announce
 udp://187.10.24.160:6969/announce
+udp://187.11.72.168:6969/announce
 udp://187.11.72.188:6969/announce
 udp://187.11.72.236:6969/announce
 udp://187.11.73.178:6969/announce
