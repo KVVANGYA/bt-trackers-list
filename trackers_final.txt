@@ -1,7 +1,7 @@
 http://00.alarmasqueretaro.com:443/announce
 http://00.mercax.com:443/announce
 http://00.xxtor.com:443/announce
-http://0123456789nonexistent.com:80/announce
+http://0123456789nonexistent.com/announce
 http://0205.uptm.ch:6969/announce
 http://0d.kebhana.mx:443/announce
 http://0x7c.space:7070/announce
@@ -236,6 +236,7 @@ http://179.98.51.66:6969/announce
 http://180.112.57.159:6969/announce
 http://180.113.224.97:6969/announce
 http://180.113.227.211:6969/announce
+http://180.114.103.80:6969/announce
 http://180.97.219.76:8070/announce
 http://181.214.58.63:6969/announce
 http://182.176.139.129:6969/announce
@@ -303,6 +304,7 @@ http://189.18.96.56:6969/announce
 http://189.18.96.9:6969/announce
 http://189.18.97.116:6969/announce
 http://189.18.97.201:6969/announce
+http://189.18.97.57:6969/announce
 http://189.69.167.105:6969/announce
 http://189.69.167.130:6969/announce
 http://189.69.168.180:6969/announce
@@ -995,7 +997,7 @@ http://retracker.mgts.by/announce
 http://retracker.ohys.net:80/announce
 http://retracker.seven-sky.net/announce
 http://retracker.sevstar.net:2710/announce
-http://retracker.spark-rostov.ru:80/announce
+http://retracker.spark-rostov.ru/announce
 http://retracker.telecom.by/announce
 http://retracker.x2k.ru/announce
 http://retracker.xxtor.com/announce
@@ -1012,8 +1014,8 @@ http://seeders-paradise.org/announce
 http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
+http://share.hkg-fansub.info/announce.php
 http://share.hkg-fansub.info:80/announce
-http://share.hkg-fansub.info:80/announce.php
 http://shogiroom.com:6969/announce
 http://shubt.net:2710/announce
 http://siambit.com:80/announce
@@ -1121,7 +1123,7 @@ http://tracker.bittorrent.nibblepoker.lu:49227/announce
 http://tracker.blazing.de:6969/announce
 http://tracker.breizh.pm:6969/announce
 http://tracker.bt-chat.com/announce
-http://tracker.bt-hash.com:80/announce
+http://tracker.bt-hash.com/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.btcake.com/announce
 http://tracker.btsync.gq:233/announce
@@ -1544,7 +1546,7 @@ https://t.audiences.me/announce
 https://t.btcland.xyz:443/announce
 https://t.hddolby.com/announce
 https://t.hdhome.org/announce
-https://t.peer-exchange.download:443/announce
+https://t.peer-exchange.download/announce
 https://t.quic.ws/announce
 https://t.ubits.club/announce
 https://t.zerg.pw/announce
@@ -1577,7 +1579,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -2031,6 +2033,7 @@ udp://189.18.96.56:6969/announce
 udp://189.18.96.9:6969/announce
 udp://189.18.97.116:6969/announce
 udp://189.18.97.201:6969/announce
+udp://189.18.97.57:6969/announce
 udp://189.69.167.105:6969/announce
 udp://189.69.167.130:6969/announce
 udp://189.69.168.180:6969/announce
