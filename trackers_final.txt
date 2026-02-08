@@ -358,6 +358,7 @@ http://200.161.254.20:6969/announce
 http://200.168.116.107:6969/announce
 http://200.168.116.200:6969/announce
 http://200.168.116.61:6969/announce
+http://200.168.117.124:6969/announce
 http://200.168.117.55:6969/announce
 http://200.170.109.125:6969/announce
 http://200.170.109.148:6969/announce
@@ -392,8 +393,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
-http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.187:80/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.188:80/announce
 http://211.75.205.189/announce
@@ -412,8 +413,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
+http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
-http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://211.97.119.88:2710/announce
@@ -466,7 +467,6 @@ http://34.66.57.33:2701/announce
 http://34.66.57.33:2710/announce
 http://34.66.57.33:443/announce
 http://34.66.57.33:6969/announce
-http://34.66.57.33:80/announce.php
 http://34.89.30.59/announce
 http://34.89.30.59:2710/announce
 http://34.89.51.235/announce
@@ -889,7 +889,7 @@ http://isk.richardsw.club:6969/announce
 http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 http://jsb.by00/announce
-http://jvavav.com:80/announce
+http://jvavav.com/announce
 http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com:80/announce
 http://kinorun.com:80/announce.php
@@ -2083,6 +2083,7 @@ udp://195.123.209.40:80/announce
 udp://198.100.149.66:6969/announce
 udp://198.91.25.157:8000/announce
 udp://1c.premierzal.ru:6969/announce
+udp://200.111.152.53:1337/announce
 udp://200.111.152.54:1337/announce
 udp://200.148.11.147:6969/announce
 udp://200.148.11.156:6969/announce
@@ -2093,6 +2094,7 @@ udp://200.161.254.20:6969/announce
 udp://200.168.116.107:6969/announce
 udp://200.168.116.200:6969/announce
 udp://200.168.116.61:6969/announce
+udp://200.168.117.124:6969/announce
 udp://200.168.117.55:6969/announce
 udp://200.170.109.125:6969/announce
 udp://200.170.109.148:6969/announce
