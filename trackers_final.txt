@@ -149,8 +149,8 @@ http://157.90.169.123/announce
 http://158.101.137.177:6969/announce
 http://158.69.146.212:7777/announce
 http://159.148.57.222:6969/announce
+http://159.195.43.181/announce
 http://159.195.43.181:6969/announce
-http://159.195.43.181:80/announce
 http://159.69.65.157:6969/announce
 http://160.251.231.187:6969/announce
 http://160.251.78.190:6969/announce
@@ -238,6 +238,7 @@ http://179.98.51.66:6969/announce
 http://180.112.57.159:6969/announce
 http://180.113.224.97:6969/announce
 http://180.113.227.211:6969/announce
+http://180.113.232.20:6969/announce
 http://180.114.103.80:6969/announce
 http://180.97.219.76:8070/announce
 http://181.214.58.63:6969/announce
@@ -323,6 +324,7 @@ http://189.79.12.91:6969/announce
 http://189.79.13.107:6969/announce
 http://189.79.13.111:6969/announce
 http://191.23.121.129:6969/announce
+http://191.23.62.111:6969/announce
 http://191.23.62.147:6969/announce
 http://191.23.71.103:6969/announce
 http://191.23.71.193:6969/announce
@@ -396,8 +398,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
-http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.187:80/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.189:6969/announce
@@ -893,7 +895,7 @@ http://isk.richardsw.club:6969/announce
 http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 http://jsb.by00/announce
-http://jvavav.com/announce
+http://jvavav.com:80/announce
 http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com:80/announce
 http://kinorun.com:80/announce.php
@@ -1015,7 +1017,7 @@ http://s926723.ha016.t.mydomain.zone:80/announce
 http://saltwood.top:6969/announce
 http://secure.pow7.com/announce
 http://seeders-paradise.org/announce
-http://servandroidkino.ru:80/announce
+http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
 http://share.hkg-fansub.info:80/announce
@@ -1093,7 +1095,7 @@ http://tr.cili001.com70/announce
 http://tr.cili001.com:8070/announce
 http://tr.highstar.shop:80/announce
 http://tr.kxmp.cf:80/announce
-http://tr.nyacat.pw/announce
+http://tr.nyacat.pw:80/announce
 http://tr1.aag.moe:2095/announce
 http://tracker-cdn.moeking.me:2095/announce
 http://tracker-rh.zhuqiy.eu.org:80/announce
@@ -2058,6 +2060,7 @@ udp://189.79.13.111:6969/announce
 udp://190.146.242.81:6969/announce
 udp://191.101.229.236:1337/announce
 udp://191.23.121.129:6969/announce
+udp://191.23.62.111:6969/announce
 udp://191.23.62.147:6969/announce
 udp://191.23.71.103:6969/announce
 udp://191.23.71.193:6969/announce
@@ -2750,6 +2753,7 @@ udp://ns575949.ip-51-222-82.net:6969/announce
 udp://nullzone.fr:6969/announce
 udp://odd-hd.fr:6969/announce
 udp://oh.fuuuuuck.com:6969/announce
+udp://onioniot.tk:6969/announce
 udp://open-tracker.demonoid.ch:6969/announce
 udp://open.4ever.tk:6969/announce
 udp://open.8a.is:6969/announce
@@ -3018,6 +3022,7 @@ udp://tracker.loadbt.com:6969/announce
 udp://tracker.lyretain.site:2710/announce
 udp://tracker.merded.xyz:8000/announce
 udp://tracker.mg64.net:2710/announce
+udp://tracker.mg64.net:6881/announce
 udp://tracker.mg64.net:6969/announce
 udp://tracker.mirrorbay.org:6969/announce
 udp://tracker.moeking.eu.org:6969/announce
