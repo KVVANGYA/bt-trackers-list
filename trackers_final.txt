@@ -404,8 +404,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
+http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.187:80/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.189/announce
@@ -471,13 +471,13 @@ http://34.170.169.34:6969/announce
 http://34.52.190.155/announce
 http://34.52.190.155:6960/announce
 http://34.52.190.155:6969/announce
-http://34.66.57.33/announce
 http://34.66.57.33:11450/announce
 http://34.66.57.33:1337/announce
 http://34.66.57.33:2701/announce
 http://34.66.57.33:2710/announce
 http://34.66.57.33:443/announce
 http://34.66.57.33:6969/announce
+http://34.66.57.33:80/announce
 http://34.89.30.59/announce
 http://34.89.30.59:2710/announce
 http://34.89.51.235/announce
@@ -583,8 +583,8 @@ http://5rt.tace.ru:60889/announce
 http://6.tracker.devnak.win:6969/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org:80/bt:80/announce.php
-http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
+http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
@@ -958,7 +958,7 @@ http://open.touki.ru/announce
 http://open.touki.ru/announce.php
 http://open.tracker.cl:1337/announce
 http://open.tracker.ink:6969/announce
-http://open.trackerlist.xyz/announce
+http://open.trackerlist.xyz:80/announce
 http://open.va.wiki:900/announce
 http://openbittorrent.com:80/announce
 http://opentracker.acgnx.com:6869/announce
@@ -1008,7 +1008,7 @@ http://retracker.mgts.by/announce
 http://retracker.ohys.net:80/announce
 http://retracker.seven-sky.net/announce
 http://retracker.sevstar.net:2710/announce
-http://retracker.spark-rostov.ru/announce
+http://retracker.spark-rostov.ru:80/announce
 http://retracker.telecom.by/announce
 http://retracker.x2k.ru/announce
 http://retracker.xxtor.com/announce
@@ -1021,8 +1021,8 @@ http://rt.tace.ru/announce
 http://s926723.ha016.t.mydomain.zone:80/announce
 http://saltwood.top:6969/announce
 http://secure.pow7.com/announce
-http://seeders-paradise.org/announce
-http://servandroidkino.ru/announce
+http://seeders-paradise.org:80/announce
+http://servandroidkino.ru:80/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
 http://share.hkg-fansub.info/announce.php
@@ -1100,7 +1100,7 @@ http://tr.cili001.com70/announce
 http://tr.cili001.com:8070/announce
 http://tr.highstar.shop:80/announce
 http://tr.kxmp.cf:80/announce
-http://tr.nyacat.pw/announce
+http://tr.nyacat.pw:80/announce
 http://tr1.aag.moe:2095/announce
 http://tracker-cdn.moeking.me:2095/announce
 http://tracker-rh.zhuqiy.eu.org:80/announce
@@ -1134,7 +1134,7 @@ http://tracker.bittorrent.nibblepoker.lu:49227/announce
 http://tracker.blazing.de:6969/announce
 http://tracker.breizh.pm:6969/announce
 http://tracker.bt-chat.com/announce
-http://tracker.bt-hash.com/announce
+http://tracker.bt-hash.com:80/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.btcake.com/announce
 http://tracker.btsync.gq:233/announce
@@ -1194,7 +1194,7 @@ http://tracker.huadongblower.xyz:8080/announce
 http://tracker.ilibr.org:80/announce
 http://tracker.imgdump.lol:6969/announce
 http://tracker.internetwarriors.net:1337/announce
-http://tracker.ipv6tracker.org/announce
+http://tracker.ipv6tracker.org:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.iro.moe/announce
 http://tracker.ismaarino.com:8880/announce
@@ -1681,7 +1681,7 @@ https://tracker.home.kmzs123.cn:4443/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.internetwarriors.net:1337/announce
 https://tracker.iochimari.moe:443/announce
-https://tracker.iperson.xyz/announce
+https://tracker.iperson.xyz:443/announce
 https://tracker.ipfsscan.io:443/announce
 https://tracker.ipv6tracker.ru:80/announce
 https://tracker.iriseden.fr/announce
