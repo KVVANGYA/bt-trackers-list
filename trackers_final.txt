@@ -282,6 +282,7 @@ http://187.11.75.196:6969/announce
 http://187.11.75.60:6969/announce
 http://187.34.25.113:6969/announce
 http://187.56.163.140:6969/announce
+http://187.56.163.25:6969/announce
 http://187.56.163.73:6969/announce
 http://187.56.205.168:6969/announce
 http://187.56.205.90:6969/announce
@@ -406,8 +407,8 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
-http://211.75.205.188:80/announce
 http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 http://211.75.205.190/announce
@@ -478,6 +479,7 @@ http://34.66.57.33:2701/announce
 http://34.66.57.33:2710/announce
 http://34.66.57.33:443/announce
 http://34.66.57.33:6969/announce
+http://34.66.57.33:80/announce.php
 http://34.89.30.59/announce
 http://34.89.30.59:2710/announce
 http://34.89.51.235/announce
@@ -901,7 +903,7 @@ http://isk.richardsw.club:6969/announce
 http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 http://jsb.by00/announce
-http://jvavav.com/announce
+http://jvavav.com:80/announce
 http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com:80/announce
 http://kinorun.com:80/announce.php
@@ -959,7 +961,7 @@ http://open.touki.ru/announce
 http://open.touki.ru/announce.php
 http://open.tracker.cl:1337/announce
 http://open.tracker.ink:6969/announce
-http://open.trackerlist.xyz/announce
+http://open.trackerlist.xyz:80/announce
 http://open.va.wiki:900/announce
 http://openbittorrent.com:80/announce
 http://opentracker.acgnx.com:6869/announce
@@ -1022,12 +1024,12 @@ http://rt.tace.ru/announce
 http://s926723.ha016.t.mydomain.zone:80/announce
 http://saltwood.top:6969/announce
 http://secure.pow7.com/announce
-http://seeders-paradise.org/announce
+http://seeders-paradise.org:80/announce
 http://servandroidkino.ru:80/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
-http://share.hkg-fansub.info/announce.php
 http://share.hkg-fansub.info:80/announce
+http://share.hkg-fansub.info:80/announce.php
 http://shogiroom.com:6969/announce
 http://shubt.net:2710/announce
 http://siambit.com:80/announce
@@ -1104,7 +1106,7 @@ http://tr.kxmp.cf:80/announce
 http://tr.nyacat.pw:80/announce
 http://tr1.aag.moe:2095/announce
 http://tracker-cdn.moeking.me:2095/announce
-http://tracker-rh.zhuqiy.eu.org:80/announce
+http://tracker-rh.zhuqiy.eu.org/announce
 http://tracker-sanopiracy.hopto.org:9123/announce
 http://tracker-udp.anirena.com:80/announce
 http://tracker-udp.gbitt.info:80/announce
@@ -1149,7 +1151,7 @@ http://tracker.city9x.com:2710/announce
 http://tracker.computel.fr/announce
 http://tracker.coppersurfer.site:2710/announce
 http://tracker.coppersurfer.tk:6969/announce
-http://tracker.corpscorp.online/announce
+http://tracker.corpscorp.online:80/announce
 http://tracker.cubicview.site/announce
 http://tracker.cutie.dating/announce
 http://tracker.darkness.services:6969/announce
@@ -1595,7 +1597,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga/announce
+https://tr.abir.ga:443/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -1682,7 +1684,7 @@ https://tracker.home.kmzs123.cn:4443/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.internetwarriors.net:1337/announce
 https://tracker.iochimari.moe:443/announce
-https://tracker.iperson.xyz/announce
+https://tracker.iperson.xyz:443/announce
 https://tracker.ipfsscan.io:443/announce
 https://tracker.ipv6tracker.ru:80/announce
 https://tracker.iriseden.fr/announce
@@ -2041,6 +2043,7 @@ udp://187.11.75.196:6969/announce
 udp://187.11.75.60:6969/announce
 udp://187.34.25.113:6969/announce
 udp://187.56.163.140:6969/announce
+udp://187.56.163.25:6969/announce
 udp://187.56.205.91:6969/announce
 udp://187.57.130.109:6969/announce
 udp://187.57.130.147:6969/announce
