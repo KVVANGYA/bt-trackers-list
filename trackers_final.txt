@@ -410,8 +410,8 @@ http://211.75.205.187:6969/announce
 http://211.75.205.187:80/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
-http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
+http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -586,8 +586,8 @@ http://5rt.tace.ru:60889/announce
 http://6.tracker.devnak.win:6969/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org:80/bt:80/announce.php
+http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
-http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
@@ -1026,11 +1026,11 @@ http://s926723.ha016.t.mydomain.zone:80/announce
 http://saltwood.top:6969/announce
 http://secure.pow7.com/announce
 http://seeders-paradise.org:80/announce
-http://servandroidkino.ru/announce
+http://servandroidkino.ru:80/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
+http://share.hkg-fansub.info/announce.php
 http://share.hkg-fansub.info:80/announce
-http://share.hkg-fansub.info:80/announce.php
 http://shogiroom.com:6969/announce
 http://shubt.net:2710/announce
 http://siambit.com:80/announce
@@ -1138,7 +1138,7 @@ http://tracker.bittorrent.nibblepoker.lu:49227/announce
 http://tracker.blazing.de:6969/announce
 http://tracker.breizh.pm:6969/announce
 http://tracker.bt-chat.com/announce
-http://tracker.bt-hash.com:80/announce
+http://tracker.bt-hash.com/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.btcake.com/announce
 http://tracker.btsync.gq:233/announce
@@ -1431,7 +1431,6 @@ https://114.55.113.60:6969/announce
 https://125.227.35.196:6969/announce
 https://128.199.70.66:5944/announce
 https://1337.abcvg.info:443/announce
-https://1337x.is" data-url="
 https://157.7.202.64:8080/announce
 https://158.69.146.212:7777/announce
 https://173.254.204.71:1096/announce
@@ -1496,7 +1495,6 @@ https://carapax.net/announce
 https://carbon-bonsai-621.appspot.com/announce
 https://cdn.jsdmirror.com/npm/docsify@4.12.2/lib/docsify.min.js"></script>
 https://cdn.jsdmirror.com/npm/docsify@4.12.2/lib/themes/vue.css" />
-https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 https://cernet-tracker.appspot.com:443/announce
 https://chdbits.xyz/announce
 https://chihaya-heroku.120181311.xyz/announce
@@ -1509,8 +1507,6 @@ https://edge-team.cc/announce
 https://evening-badlands-6215.herokuapp.com/announce
 https://explodie.org:6969/announce
 https://fbiagent.cyou/announce
-https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 https://fxtt.ru:80/announce
 https://grifon.info:80/announce
 https://gwp2-v19.rinet.ru:443/announce
@@ -1530,9 +1526,7 @@ https://mathkangaroo.jp/announce
 https://mgtracker.org:2710/announce
 https://mgtracker.org:6969/announce
 https://ns349743.ip-91-121-106.eu:80/announce
-https://nyaa.si" data-search-url="?f=0&c=0_0&q=@@s@@" rel="nofollow">
 https://nyaa.tracker.wf:7777/announce
-https://nyaatorrents.info" data-url="
 https://o-unkusrx.cloud.okteto.net:443/announce
 https://on.springsunday.net/announce
 https://open.acgnxtracker.com/announce
@@ -1550,7 +1544,6 @@ https://ourbits.club/announce
 https://p2p.azu.red/announce
 https://p4p.arenabg.ch:1337/announce
 https://p4p.arenabg.com:1337/announce
-https://pirate-proxy.click" data-search-url="search.php?q=@@s@@" rel="nofollow">
 https://pow7.com:80/announce
 https://prestige.minimafia.nl:443/announce
 https://private.minimafia.nl:443/announce
@@ -1561,8 +1554,6 @@ https://retracker.krs-ix.ru/announce
 https://retracker.krs-ix.ru:80/announce
 https://retracker.x2k.ru/announce
 https://retracker2.x2k.ru/announce
-https://search.torrends.to";
-https://search.torrends.to/the loved one:" class="nav-search-form">
 https://secure.pow7.com/announce
 https://seeders-paradise.org/announce
 https://shahidrazi.online:443/announce
@@ -1588,39 +1579,14 @@ https://t3.leech.ie:443/announce
 https://thetracker.org:80/announce
 https://threads.canofsocks.com:443/announce
 https://tk.mabo.ltd:443/announce
-https://torrends.to";
-https://torrends.to/ajax.php";
-https://torrends.to/settings/" rel="nofollow" onclick="ga('send', 'event', 'Feature', 'click', 'Add torrent sites');">Add torrent sites</a></li>
-https://torrends.to/theme/assets/css/category.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/css/das.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/css/fdn.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/css/frontpage.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/css/global.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/css/head-foot.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/css/normalize.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/css/pages.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/css/sbasic.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/css/search.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/css/settings.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/css/sites.css?ver=5.5.14' type='text/css' media='all' />
-https://torrends.to/theme/assets/img/favicon.png">
-https://torrends.to/theme/assets/img/logo-s.png" alt="torrents" /></a></div>
-https://torrends.to/theme/assets/js/foundation.min.js"></script>
-https://torrends.to/theme/assets/js/foundation.tab.js"></script>
-https://torrends.to/theme/assets/js/jquery-ui.min.js"></script>
-https://torrends.to/theme/assets/js/script.js"></script>
 https://torrent-tracker.hama3.net/announce
 https://torrent.gresille.org/announce
 https://torrent.opiums.eu/announce
 https://torrent.tracker.durukanbal.com:443/announce
 https://torrent.ubuntu.com:443/announce
-https://torrentgalaxy.mx" data-url="
-https://torrentgalaxy.to" data-search-url="torrents.php?search=@@s@@#results" rel="nofollow">
 https://torrentonline.cc/announce
 https://torrents.linuxmint.com:443/announce
 https://torrents.linuxmint.com:443/announce.php
-https://torrentseeker.com" data-url="
-https://torrentseeker.com/search.php?q=the loved one"></iframe>
 https://torrentsmd.com:8080/announce
 https://torrentsmd.eu:8080/announce
 https://torrentsmd.me:8080/announce
@@ -1632,7 +1598,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -1719,7 +1685,7 @@ https://tracker.home.kmzs123.cn:4443/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.internetwarriors.net:1337/announce
 https://tracker.iochimari.moe:443/announce
-https://tracker.iperson.xyz:443/announce
+https://tracker.iperson.xyz/announce
 https://tracker.ipfsscan.io:443/announce
 https://tracker.ipv6tracker.ru:80/announce
 https://tracker.iriseden.fr/announce
@@ -1836,19 +1802,14 @@ https://ttk.pp.ua/announce
 https://ttracker.just-h.party:443/announce
 https://voxhost.fr:443/announce
 https://w.wwwww.wtf/announce
-https://www.google-analytics.com/analytics.js','ga');
 https://www.peckservers.com:9000/announce
 https://www.peckservers.com:9443/announce
 https://www.wareztorrent.com:443/announce
 https://www.wareztorrent.com:80/announce
-https://x1337x.se" data-search-url="srch?search=@@s@@" rel="nofollow">
 https://x7x.up.railway.app/announce
 https://xtremex.herokuapp.com:443/announce
-https://yoast.com/wordpress/plugins/seo/ -->
 https://yolo.liberbear.com/announce
 https://yolo.liberbear.com:80/announce
-https://yts.unblocked.win" data-url="
-https://yts.unblockit.mov" data-search-url="browse-movies/@@s@@" rel="nofollow">
 https://yuki.bt.bontal.net/announce
 https://zer0day.000webhostapp.com/announce
 udp://0205.uptm.ch:6969/announce
