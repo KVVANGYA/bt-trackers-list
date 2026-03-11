@@ -414,8 +414,8 @@ http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.188:80/announce
-http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
+http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -430,8 +430,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
+http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
-http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://211.97.119.88:2710/announce
@@ -484,7 +484,6 @@ http://34.66.57.33:2701/announce
 http://34.66.57.33:2710/announce
 http://34.66.57.33:443/announce
 http://34.66.57.33:6969/announce
-http://34.66.57.33:80/announce.php
 http://34.89.30.59/announce
 http://34.89.30.59:2710/announce
 http://34.89.51.235/announce
@@ -1622,7 +1621,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga/announce
+https://tr.abir.ga:443/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -1709,7 +1708,7 @@ https://tracker.home.kmzs123.cn:4443/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.internetwarriors.net:1337/announce
 https://tracker.iochimari.moe:443/announce
-https://tracker.iperson.xyz/announce
+https://tracker.iperson.xyz:443/announce
 https://tracker.ipfsscan.io:443/announce
 https://tracker.ipv6tracker.ru:80/announce
 https://tracker.iriseden.fr/announce
