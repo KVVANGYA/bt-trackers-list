@@ -412,10 +412,10 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
-http://211.75.205.188:80/announce
-http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
+http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -1424,7 +1424,7 @@ http://www.torrentsnipe.info:2701/announce
 http://www.tribalmixes.com:80/announce
 http://www.tribalmixes.com:80/announce.php
 http://www.tvnihon.com:6969/announce
-http://www.wareztorrent.com:80/announce
+http://www.wareztorrent.com/announce
 http://www.worldboxingvideoarchive.com:80/announce
 http://www.worldboxingvideoarchive.com:80/announce.php
 http://www.xwt-classics.net:80/announce
