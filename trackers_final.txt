@@ -80,6 +80,7 @@ http://123.245.62.112:6969/announce
 http://123.245.62.16:6969/announce
 http://123.245.62.21:6969/announce
 http://123.245.62.37:6969/announce
+http://123.245.62.39:6969/announce
 http://123.245.62.3:6969/announce
 http://123.245.62.41:6969/announce
 http://123.245.62.47:6969/announce
@@ -293,6 +294,7 @@ http://187.56.205.91:6969/announce
 http://187.57.130.109:6969/announce
 http://187.57.130.147:6969/announce
 http://187.57.131.202:6969/announce
+http://187.57.131.78:6969/announce
 http://187.57.132.20:6969/announce
 http://187.57.132.246:6969/announce
 http://187.57.132.65:6969/announce
@@ -971,6 +973,7 @@ http://open.tracker.ink:6969/announce
 http://open.trackerlist.xyz/announce
 http://open.va.wiki:900/announce
 http://openbittorrent.com:80/announce
+http://opentracker.91kf.top:16969/announce
 http://opentracker.acgnx.com:6869/announce
 http://opentracker.acgnx.se/announce
 http://opentracker.dg2.i2p:80/a
@@ -1525,6 +1528,7 @@ https://chdbits.xyz/announce
 https://chihaya-heroku.120181311.xyz/announce
 https://chihaya.de/announce
 https://cny.fan:443/announce
+https://colibri.parrot.run:443/announce
 https://danielcloud.ddns.net/announce
 https://dev.tracker.cf-identity-wallet.metadata.dev.cf-deployments.org/announce
 https://docker-tracker-production.up.railway.app/announce
@@ -1625,7 +1629,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -1712,7 +1716,7 @@ https://tracker.home.kmzs123.cn:4443/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.internetwarriors.net:1337/announce
 https://tracker.iochimari.moe:443/announce
-https://tracker.iperson.xyz:443/announce
+https://tracker.iperson.xyz/announce
 https://tracker.ipfsscan.io:443/announce
 https://tracker.ipv6tracker.ru:80/announce
 https://tracker.iriseden.fr/announce
@@ -1832,6 +1836,7 @@ https://ttk.pp.ua/announce
 https://ttracker.just-h.party:443/announce
 https://voxhost.fr:443/announce
 https://w.wwwww.wtf/announce
+https://wolf.parrot.run:443/announce
 https://wsad.run.place:443/announce
 https://www.peckservers.com:9000/announce
 https://www.peckservers.com:9443/announce
@@ -2085,6 +2090,7 @@ udp://187.56.205.91:6969/announce
 udp://187.57.130.109:6969/announce
 udp://187.57.130.147:6969/announce
 udp://187.57.131.202:6969/announce
+udp://187.57.131.78:6969/announce
 udp://187.57.132.20:6969/announce
 udp://187.57.132.246:6969/announce
 udp://187.57.132.65:6969/announce
@@ -2924,6 +2930,7 @@ udp://t.zerg.pw:1337/announce
 udp://t.zerg.pw:6969/announce
 udp://t1.chfs.ch:6969/announce
 udp://t2.leech.ie:1337/announce
+udp://t2.pow7.com:6969/announce
 udp://t3.leech.ie:1337/announce
 udp://taciturn-shadow.spb.ru:6969/announce
 udp://tamas3.ynh.fr:6969/announce
