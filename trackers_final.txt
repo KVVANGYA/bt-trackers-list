@@ -416,8 +416,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
-http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.187:80/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.189/announce
@@ -550,7 +550,7 @@ http://45.63.111.135:2710/announce
 http://45.63.111.135:6961/announce
 http://45.63.111.135:8080/announce
 http://45.67.35.111:6969/announce
-http://45.7.231.102:80/announce
+http://45.7.231.102/announce
 http://46.17.46.112:8080/announce
 http://46.231.241.43:6969/announce
 http://46.29.161.6:2710/announce
@@ -620,6 +620,7 @@ http://65.108.2.176:2710/announce
 http://65.130.190.21:9000/announce
 http://65.130.205.148:9000/announce
 http://66.154.105.124:6969/announce
+http://66691337.xyz:6969/announce
 http://6wbrmd4wodeewdykfw362gmlbeo26njc5zmtuxdvtomehpozzjja.b32.i2p/announce
 http://74.48.17.122:6969/announce
 http://74.82.52.209:6969/announce
@@ -978,7 +979,7 @@ http://open.touki.ru/announce
 http://open.touki.ru/announce.php
 http://open.tracker.cl:1337/announce
 http://open.tracker.ink:6969/announce
-http://open.trackerlist.xyz/announce
+http://open.trackerlist.xyz:80/announce
 http://open.va.wiki:900/announce
 http://openbittorrent.com:80/announce
 http://opentracker.91kf.top:16969/announce
@@ -1050,8 +1051,8 @@ http://seeders-paradise.org/announce
 http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
+http://share.hkg-fansub.info/announce.php
 http://share.hkg-fansub.info:80/announce
-http://share.hkg-fansub.info:80/announce.php
 http://shogiroom.com:6969/announce
 http://shubt.net:2710/announce
 http://siambit.com:80/announce
@@ -1163,7 +1164,7 @@ http://tracker.bittorrent.nibblepoker.lu:49227/announce
 http://tracker.blazing.de:6969/announce
 http://tracker.breizh.pm:6969/announce
 http://tracker.bt-chat.com/announce
-http://tracker.bt-hash.com/announce
+http://tracker.bt-hash.com:80/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.btcake.com/announce
 http://tracker.btsync.gq:233/announce
@@ -1925,6 +1926,7 @@ udp://125.227.79.123:80/announce
 udp://128.199.70.66:5944/announce
 udp://130.61.158.165:6969/announce
 udp://132.226.6.145:6969/announce
+udp://132.243.174.78:6969/announce
 udp://135.125.106.92:6969/announce
 udp://135.125.202.143:6969/announce
 udp://135.125.236.64:6969/announce
@@ -2178,6 +2180,7 @@ udp://195.123.209.40:80/announce
 udp://198.100.149.66:6969/announce
 udp://198.91.25.157:8000/announce
 udp://1c.premierzal.ru:6969/announce
+udp://2.57.214.218:6969/announce
 udp://2.tracker.eu.org:443/announce
 udp://200.111.152.53:1337/announce
 udp://200.111.152.54:1337/announce
@@ -3080,6 +3083,7 @@ udp://tracker.flatuslifir.is:6969/announce
 udp://tracker.fnix.net:6969/announce
 udp://tracker.fortu.io:6969/announce
 udp://tracker.frozen-layer.net:6969/announce
+udp://tracker.gbitt.info:80/announce
 udp://tracker.gigantino.net:6969/announce
 udp://tracker.gmi.gd:6969/announce
 udp://tracker.grepler.com:6969/announce
