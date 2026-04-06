@@ -2,7 +2,7 @@ http://00.alarmasqueretaro.com:443/announce
 http://00.mercax.com:443/announce
 http://00.xxtor.com:443/announce
 http://004430.xyz:80/announce
-http://0123456789nonexistent.com:80/announce
+http://0123456789nonexistent.com/announce
 http://0205.uptm.ch:6969/announce
 http://0d.kebhana.mx:443/announce
 http://0x7c.space:7070/announce
@@ -419,8 +419,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
+http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.187:80/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.189/announce
@@ -439,8 +439,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
-http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
+http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://211.97.119.88:2710/announce
@@ -538,7 +538,7 @@ http://44.30.4.3:6969/announce
 http://44.30.4.4:6969/announce
 http://44.30.4.70:6969/announce
 http://45.13.119.213:6969/announce
-http://45.146.254.59:80/announce
+http://45.146.254.59/announce
 http://45.154.253.10/announce
 http://45.154.253.4/announce
 http://45.154.253.5/announce
@@ -807,10 +807,12 @@ http://bt.nfshost.com:443/announce
 http://bt.nnm-club.info:2710/announce
 http://bt.okmp3.ru:2710/announce
 http://bt.poletracker.org:2710/announce
+http://bt.publicvm.com:8080/announce
 http://bt.pusacg.org:8080/announce
 http://bt.rer.lol:2710/announce
 http://bt.rghost.net/announce
 http://bt.sc-ol.com:2710/announce
+http://bt.t-ru.org/ann/announce
 http://bt.ttk.artvid.ru:6969/announce
 http://bt.unionpeer.org:777/announce
 http://bt.xcty.eu.org:2095/announce
@@ -827,6 +829,7 @@ http://bt2.careland.com.cn:6969/announce
 http://bt2.edwardk.info:2710/announce
 http://bt2.edwardk.info:4040/announce
 http://bt2.edwardk.info:6969/announce
+http://bt4.t-ru.org/announce
 http://btfile.sdo.com:6961/announce
 http://btracker.top:11451/announce
 http://bttracker.crunchbanglinux.org:6969/announce
@@ -1032,7 +1035,7 @@ http://retracker.mgts.by/announce
 http://retracker.ohys.net:80/announce
 http://retracker.seven-sky.net/announce
 http://retracker.sevstar.net:2710/announce
-http://retracker.spark-rostov.ru:80/announce
+http://retracker.spark-rostov.ru/announce
 http://retracker.telecom.by/announce
 http://retracker.x2k.ru/announce
 http://retracker.xxtor.com/announce
@@ -1063,6 +1066,7 @@ http://siambit.org/announce.php
 http://siambit.org:80/announce
 http://sigmatracker.i2p:80/a
 http://smurfsoft.com:6969/announce
+http://sound-park.world:443/announce
 http://sparkle.ghostchu-services.top:443/announce
 http://speedtest.iperson.xyz:6969/announce
 http://sugoi.pomf.se/announce
@@ -1183,7 +1187,7 @@ http://tracker.coppersurfer.tk:6969/announce
 http://tracker.corpscorp.online/announce
 http://tracker.cubicview.site/announce
 http://tracker.cubonegro.org:80/announce
-http://tracker.cutie.dating:80/announce
+http://tracker.cutie.dating/announce
 http://tracker.darkness.services:6969/announce
 http://tracker.ddunlimited.net:6969/announce
 http://tracker.devil-torrents.pl/announce
@@ -1351,8 +1355,8 @@ http://tracker.ykat.xyz:6969/announce
 http://tracker.yoshi210.com:6969/announce
 http://tracker.yuelili.com:80/announce
 http://tracker.zerobytes.xyz:1337/announce
-http://tracker.zhuqiy.com/announce
 http://tracker.zhuqiy.com:443/announce
+http://tracker.zhuqiy.com:80/announce
 http://tracker.zhuqiy.dgj055.icu:80/announce
 http://tracker.zhuqiy.eu.org:36107/announce
 http://tracker.zhuqiy.top/announce
@@ -3316,6 +3320,7 @@ udp://yahor.ftp.sh:6969/announce
 udp://yahor.of.by:6969/announce
 udp://yann5.hexanyn.fr:6969/announce
 udp://yuki.bt.bontal.net:6969/announce
+udp://yuptracker-eu.gaijinent.com:27022/announce
 udp://z.crazyhd.com:2710/announce
 udp://z.mercax.com:53/announce
 udp://z.paranoid.agency:6969/announce
