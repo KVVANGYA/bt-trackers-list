@@ -2,7 +2,7 @@ http://00.alarmasqueretaro.com:443/announce
 http://00.mercax.com:443/announce
 http://00.xxtor.com:443/announce
 http://004430.xyz:80/announce
-http://0123456789nonexistent.com/announce
+http://0123456789nonexistent.com:80/announce
 http://0205.uptm.ch:6969/announce
 http://0d.kebhana.mx:443/announce
 http://0x7c.space:7070/announce
@@ -486,13 +486,14 @@ http://34.170.169.34:6969/announce
 http://34.52.190.155/announce
 http://34.52.190.155:6960/announce
 http://34.52.190.155:6969/announce
-http://34.66.57.33/announce
 http://34.66.57.33:11450/announce
 http://34.66.57.33:1337/announce
 http://34.66.57.33:2701/announce
 http://34.66.57.33:2710/announce
 http://34.66.57.33:443/announce
 http://34.66.57.33:6969/announce
+http://34.66.57.33:80/announce
+http://34.66.57.33:80/announce.php
 http://34.89.30.59/announce
 http://34.89.30.59:2710/announce
 http://34.89.51.235/announce
@@ -601,8 +602,8 @@ http://60-fps.org/bt/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org/bt:80/announce
 http://60-fps.org:80/bt:80/announce.php
+http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
-http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
@@ -925,7 +926,7 @@ http://isk.richardsw.club:6969/announce
 http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 http://jsb.by00/announce
-http://jvavav.com/announce
+http://jvavav.com:80/announce
 http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com:80/announce
 http://kinorun.com:80/announce.php
@@ -984,7 +985,7 @@ http://open.touki.ru/announce
 http://open.touki.ru/announce.php
 http://open.tracker.cl:1337/announce
 http://open.tracker.ink:6969/announce
-http://open.trackerlist.xyz/announce
+http://open.trackerlist.xyz:80/announce
 http://open.va.wiki:900/announce
 http://openbittorrent.com:80/announce
 http://opentracker.91kf.top:16969/announce
@@ -1056,8 +1057,8 @@ http://seeders-paradise.org/announce
 http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
-http://share.hkg-fansub.info/announce.php
 http://share.hkg-fansub.info:80/announce
+http://share.hkg-fansub.info:80/announce.php
 http://shogiroom.com:6969/announce
 http://shubt.net:2710/announce
 http://siambit.com:80/announce
@@ -1170,7 +1171,7 @@ http://tracker.bittorrent.nibblepoker.lu:49227/announce
 http://tracker.blazing.de:6969/announce
 http://tracker.breizh.pm:6969/announce
 http://tracker.bt-chat.com/announce
-http://tracker.bt-hash.com/announce
+http://tracker.bt-hash.com:80/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.btcake.com/announce
 http://tracker.btsync.gq:233/announce
@@ -1184,10 +1185,10 @@ http://tracker.city9x.com:2710/announce
 http://tracker.computel.fr/announce
 http://tracker.coppersurfer.site:2710/announce
 http://tracker.coppersurfer.tk:6969/announce
-http://tracker.corpscorp.online/announce
+http://tracker.corpscorp.online:80/announce
 http://tracker.cubicview.site/announce
 http://tracker.cubonegro.org:80/announce
-http://tracker.cutie.dating/announce
+http://tracker.cutie.dating:80/announce
 http://tracker.darkness.services:6969/announce
 http://tracker.ddunlimited.net:6969/announce
 http://tracker.devil-torrents.pl/announce
@@ -1234,7 +1235,7 @@ http://tracker.huadongblower.xyz:8080/announce
 http://tracker.ilibr.org:80/announce
 http://tracker.imgdump.lol:6969/announce
 http://tracker.internetwarriors.net:1337/announce
-http://tracker.ipv6tracker.org/announce
+http://tracker.ipv6tracker.org:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.iro.moe/announce
 http://tracker.ismaarino.com:8880/announce
@@ -1401,6 +1402,7 @@ http://v6-tracker.0g.cx:6969/announce
 http://vps-c1adea63.vps.ovh.net:6969/announce
 http://vps-dd0a0715.vps.ovh.net:6969/announce
 http://vps02.net.orel.ru/announce
+http://w.wwwww.wtf:443/announce
 http://web.open-tracker.cf:6969/announce
 http://wegkxfcivgx.chickenkiller.com/announce
 http://wegkxfcivgx.ydns.eu:80/announce
@@ -1638,6 +1640,7 @@ https://torrent.ubuntu.com:443/announce
 https://torrentonline.cc/announce
 https://torrents.linuxmint.com:443/announce
 https://torrents.linuxmint.com:443/announce.php
+https://torrents.tmtime.dev:443/announce
 https://torrentsmd.com:8080/announce
 https://torrentsmd.eu:8080/announce
 https://torrentsmd.me:8080/announce
@@ -3107,6 +3110,7 @@ udp://tracker.healthcareindia.store:1337/announce
 udp://tracker.hentai.gg:6969/announce
 udp://tracker.hifimarket.in:2710/announce
 udp://tracker.hifitechindia.com:6969/announce
+udp://tracker.hismz.cn:6969/announce
 udp://tracker.home.kmzs123.cn:17272/announce
 udp://tracker.huadongblower.xyz:8080/announce
 udp://tracker.iamhansen.xyz:2000/announce
