@@ -2,7 +2,7 @@ http://00.alarmasqueretaro.com:443/announce
 http://00.mercax.com:443/announce
 http://00.xxtor.com:443/announce
 http://004430.xyz:80/announce
-http://0123456789nonexistent.com/announce
+http://0123456789nonexistent.com:80/announce
 http://0205.uptm.ch:6969/announce
 http://0d.kebhana.mx:443/announce
 http://0x7c.space:7070/announce
@@ -35,6 +35,7 @@ http://113.16.155.111:6969/announce
 http://113.16.155.116:6969/announce
 http://113.16.155.146:6969/announce
 http://113.17.152.163:6969/announce
+http://113.17.152.249:6969/announce
 http://114.55.113.60:6969/announce
 http://116.16.41.96:6969/announce
 http://116.16.42.86:6969/announce
@@ -495,13 +496,13 @@ http://34.170.169.34:6969/announce
 http://34.52.190.155/announce
 http://34.52.190.155:6960/announce
 http://34.52.190.155:6969/announce
+http://34.66.57.33/announce
 http://34.66.57.33:11450/announce
 http://34.66.57.33:1337/announce
 http://34.66.57.33:2701/announce
 http://34.66.57.33:2710/announce
 http://34.66.57.33:443/announce
 http://34.66.57.33:6969/announce
-http://34.66.57.33:80/announce
 http://34.89.30.59/announce
 http://34.89.30.59:2710/announce
 http://34.89.51.235/announce
@@ -1062,7 +1063,7 @@ http://s1130642.ha014.t.mydomain.zone:80/announce
 http://s926723.ha016.t.mydomain.zone:80/announce
 http://saltwood.top:6969/announce
 http://secure.pow7.com/announce
-http://seeders-paradise.org/announce
+http://seeders-paradise.org:80/announce
 http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
@@ -1180,7 +1181,7 @@ http://tracker.bittorrent.nibblepoker.lu:49227/announce
 http://tracker.blazing.de:6969/announce
 http://tracker.breizh.pm:6969/announce
 http://tracker.bt-chat.com/announce
-http://tracker.bt-hash.com/announce
+http://tracker.bt-hash.com:80/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.btcake.com/announce
 http://tracker.btsync.gq:233/announce
@@ -1194,7 +1195,7 @@ http://tracker.city9x.com:2710/announce
 http://tracker.computel.fr/announce
 http://tracker.coppersurfer.site:2710/announce
 http://tracker.coppersurfer.tk:6969/announce
-http://tracker.corpscorp.online/announce
+http://tracker.corpscorp.online:80/announce
 http://tracker.cubicview.site/announce
 http://tracker.cubonegro.org:80/announce
 http://tracker.cutie.dating:80/announce
@@ -1467,7 +1468,7 @@ http://www.torrentsnipe.info:2701/announce
 http://www.tribalmixes.com:80/announce
 http://www.tribalmixes.com:80/announce.php
 http://www.tvnihon.com:6969/announce
-http://www.wareztorrent.com:80/announce
+http://www.wareztorrent.com/announce
 http://www.worldboxingvideoarchive.com:80/announce
 http://www.worldboxingvideoarchive.com:80/announce.php
 http://www.xwt-classics.net:80/announce
@@ -1799,6 +1800,7 @@ https://tracker.monikadesign.uk/announce
 https://tracker.monikadesign.uk/announce/63ea34cb9815cd28d63fc75b2f2c5a56
 https://tracker.monikadesign.uk/announce/a46be21ab845cc0d534d06fea801f95a
 https://tracker.morian.icu/announce
+https://tracker.moviesdb.top/announce
 https://tracker.moxing.party:6969/announce
 https://tracker.mrhei.tech:666/announce
 https://tracker.nanoha.org:443/announce
