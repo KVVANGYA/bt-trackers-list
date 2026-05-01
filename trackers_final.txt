@@ -436,8 +436,8 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
-http://211.75.205.188:80/announce
 http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 http://211.75.205.190/announce
@@ -554,7 +554,7 @@ http://44.30.4.3:6969/announce
 http://44.30.4.4:6969/announce
 http://44.30.4.70:6969/announce
 http://45.13.119.213:6969/announce
-http://45.146.254.59:80/announce
+http://45.146.254.59/announce
 http://45.154.253.10/announce
 http://45.154.253.4/announce
 http://45.154.253.5/announce
@@ -1205,7 +1205,7 @@ http://tracker.coppersurfer.tk:6969/announce
 http://tracker.corpscorp.online:80/announce
 http://tracker.cubicview.site/announce
 http://tracker.cubonegro.org:80/announce
-http://tracker.cutie.dating:80/announce
+http://tracker.cutie.dating/announce
 http://tracker.darkness.services:6969/announce
 http://tracker.ddunlimited.net:6969/announce
 http://tracker.devil-torrents.pl/announce
@@ -1677,7 +1677,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -3374,7 +3374,6 @@ udp://zecircle.xyz:6969/announce
 udp://zephir.monocul.us:6969/announce
 udp://zer0day.ch:1337/announce
 udp://zer0day.to:1337/announce
-ws://tracker.files.fm:7072/announce
 wss://qot.abiir.top:443/announce
 wss://spacetradersapi-chatbox.herokuapp.com:443/announce
 wss://tracker.btorrent.xyz:443/announce
