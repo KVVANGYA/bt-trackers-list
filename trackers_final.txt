@@ -2,7 +2,7 @@ http://00.alarmasqueretaro.com:443/announce
 http://00.mercax.com:443/announce
 http://00.xxtor.com:443/announce
 http://004430.xyz:80/announce
-http://0123456789nonexistent.com:80/announce
+http://0123456789nonexistent.com/announce
 http://0205.uptm.ch:6969/announce
 http://0d.kebhana.mx:443/announce
 http://0x7c.space:7070/announce
@@ -32,6 +32,7 @@ http://110.187.215.166:6969/announce
 http://113.13.6.40:6969/announce
 http://113.13.7.124:6969/announce
 http://113.16.153.249:6969/announce
+http://113.16.153.98:6969/announce
 http://113.16.155.111:6969/announce
 http://113.16.155.112:6969/announce
 http://113.16.155.116:6969/announce
@@ -324,6 +325,7 @@ http://189.0.78.245:6969/announce
 http://189.0.78.33:6969/announce
 http://189.110.233.96:6969/announce
 http://189.18.126.32:6969/announce
+http://189.18.126.49:6969/announce
 http://189.18.127.125:6969/announce
 http://189.18.127.57:6969/announce
 http://189.18.162.106:6969/announce
@@ -434,8 +436,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
-http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.187:80/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.189/announce
@@ -1001,7 +1003,7 @@ http://open.touki.ru/announce
 http://open.touki.ru/announce.php
 http://open.tracker.cl:1337/announce
 http://open.tracker.ink:6969/announce
-http://open.trackerlist.xyz:80/announce
+http://open.trackerlist.xyz/announce
 http://open.va.wiki:900/announce
 http://openbittorrent.com:80/announce
 http://opentracker.91kf.top:16969/announce
@@ -1188,7 +1190,7 @@ http://tracker.bittorrent.nibblepoker.lu:49227/announce
 http://tracker.blazing.de:6969/announce
 http://tracker.breizh.pm:6969/announce
 http://tracker.bt-chat.com/announce
-http://tracker.bt-hash.com/announce
+http://tracker.bt-hash.com:80/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.btcake.com/announce
 http://tracker.btsync.gq:233/announce
@@ -2157,6 +2159,7 @@ udp://188.165.253.109:1337/announce
 udp://189.0.78.245:6969/announce
 udp://189.0.78.33:6969/announce
 udp://189.18.126.32:6969/announce
+udp://189.18.126.49:6969/announce
 udp://189.18.127.125:6969/announce
 udp://189.18.127.57:6969/announce
 udp://189.18.162.106:6969/announce
