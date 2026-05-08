@@ -510,7 +510,6 @@ http://34.66.57.33:2701/announce
 http://34.66.57.33:2710/announce
 http://34.66.57.33:443/announce
 http://34.66.57.33:6969/announce
-http://34.66.57.33:80/announce.php
 http://34.89.30.59/announce
 http://34.89.30.59:2710/announce
 http://34.89.51.235/announce
@@ -945,7 +944,7 @@ http://isk.richardsw.club:6969/announce
 http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 http://jsb.by00/announce
-http://jvavav.com:80/announce
+http://jvavav.com/announce
 http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com:80/announce
 http://kinorun.com:80/announce.php
@@ -1244,8 +1243,8 @@ http://tracker.gbitt.info:80/announce
 http://tracker.gcrenwp.top:443/announce
 http://tracker.gcvchp.com:2710/announce
 http://tracker.gdp.pw:900/announce
+http://tracker.ghostchu-services.top/announce
 http://tracker.ghostchu-services.top:443/announce
-http://tracker.ghostchu-services.top:80/announce
 http://tracker.gigatorrents.ws:2710/announce
 http://tracker.grepler.com:6969/announce
 http://tracker.guguan.000.pe:80/announce
@@ -1681,7 +1680,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -1756,7 +1755,7 @@ https://tracker.fr.eu.org/announce
 https://tracker.gbitt.info:443/announce
 https://tracker.gcrenwp.top:443/announce
 https://tracker.gcrreen.xyz/announce
-https://tracker.ghostchu-services.top:443/announce
+https://tracker.ghostchu-services.top/announce
 https://tracker.grepler.com:6969/announce
 https://tracker.guguan.dpdns.org/announce
 https://tracker.guguan.us.kg:443/announce
