@@ -273,6 +273,7 @@ http://184.61.17.58:9000/announce
 http://185.121.24.141:6969/announce
 http://185.130.47.2:6969/announce
 http://185.148.3.231/announce
+http://185.171.202.111:6969/announce
 http://185.185.40.51:6969/announce
 http://185.185.40.95:6969/announce
 http://185.197.195.20:1919/announce
@@ -440,8 +441,8 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
-http://211.75.205.188:80/announce
 http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 http://211.75.205.190/announce
@@ -2125,6 +2126,7 @@ udp://185.121.168.96:6969/announce
 udp://185.121.24.141:6969/announce
 udp://185.134.22.3:6969/announce
 udp://185.146.233.150:6969/announce
+udp://185.171.202.111:6969/announce
 udp://185.181.60.155:80/announce
 udp://185.181.60.67:80/announce
 udp://185.189.13.108:6969/announce
