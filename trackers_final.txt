@@ -38,6 +38,7 @@ http://113.16.155.112:6969/announce
 http://113.16.155.116:6969/announce
 http://113.16.155.146:6969/announce
 http://113.16.155.226:6969/announce
+http://113.16.155.243:6969/announce
 http://113.17.152.163:6969/announce
 http://113.17.152.249:6969/announce
 http://113.17.153.206:6969/announce
@@ -442,10 +443,10 @@ http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
 http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
-http://211.75.205.188:80/announce
-http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
+http://211.75.205.189:80/announce
 http://211.75.205.190/announce
 http://211.75.205.190:6969/announce
 http://211.75.205.191/announce
@@ -460,8 +461,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
-http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
+http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://211.97.119.88:2710/announce
@@ -622,8 +623,8 @@ http://60-fps.org/bt/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org/bt:80/announce
 http://60-fps.org:80/bt:80/announce.php
+http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
-http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
@@ -732,6 +733,7 @@ http://83.6.232.23:6969/announce
 http://83.6.233.63:6969/announce
 http://83.6.234.75:6969/announce
 http://83.6.237.118:6969/announce
+http://85.121.5.80:6969/announce
 http://85.17.19.180/announce
 http://87.110.238.140:6969/announce
 http://87.248.186.252:8080/announce
@@ -1928,6 +1930,7 @@ udp://107.150.14.110:6969/announce
 udp://107.175.221.194:6969/announce
 udp://107.182.30.76.16clouds.com:6969/announce
 udp://107.189.11.58:6969/announce
+udp://107.189.2.131:1337/announce
 udp://107.189.3.200:6969/announce
 udp://107.189.4.235:1337/announce
 udp://107.189.7.165:6969/announce
@@ -2515,6 +2518,7 @@ udp://62.60.157.92:6969/announce
 udp://64.23.195.62:6969/announce
 udp://65.108.102.76:6969/announce
 udp://65.21.91.32:6969/announce
+udp://67.222.238.222:2010/announce
 udp://68.193.189.231:6969/announce
 udp://69.30.224.166:6969/announce
 udp://69.30.233.234:6969/announce
@@ -2623,6 +2627,7 @@ udp://83.6.231.203:6969/announce
 udp://83.6.233.63:6969/announce
 udp://84.197.224.61:6969/announce
 udp://84.54.51.78:6969/announce
+udp://85.121.5.80:6969/announce
 udp://85.17.19.180:80/announce
 udp://85.239.33.28:6969/announce
 udp://86.127.239.222:1234/announce
@@ -3073,6 +3078,7 @@ udp://torrenttracker.nwc.acsalaska.net:6969/announce
 udp://torrentvpn.club:6990/announce
 udp://touhou.kawaiiarts.com:6969/announce
 udp://tr.bangumi.moe:6969/announce
+udp://tr.btube3.com:2010/announce
 udp://tr.cili001.com:8070/announce
 udp://tr.movian.eu:6969/announce
 udp://tr2.cubonegro.lol:6969/announce
