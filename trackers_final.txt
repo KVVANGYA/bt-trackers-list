@@ -38,6 +38,7 @@ http://113.16.153.192:6969/announce
 http://113.16.153.249:6969/announce
 http://113.16.153.98:6969/announce
 http://113.16.154.16:6969/announce
+http://113.16.154.70:6969/announce
 http://113.16.155.111:6969/announce
 http://113.16.155.112:6969/announce
 http://113.16.155.116:6969/announce
@@ -453,8 +454,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
-http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.187:80/announce
 http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.189/announce
@@ -527,6 +528,7 @@ http://34.66.57.33:2710/announce
 http://34.66.57.33:443/announce
 http://34.66.57.33:6969/announce
 http://34.66.57.33:80/announce
+http://34.66.57.33:80/announce.php
 http://34.89.30.59/announce
 http://34.89.30.59:2710/announce
 http://34.89.51.235/announce
@@ -966,7 +968,7 @@ http://isk.richardsw.club:6969/announce
 http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 http://jsb.by00/announce
-http://jvavav.com/announce
+http://jvavav.com:80/announce
 http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com:80/announce
 http://kinorun.com:80/announce.php
@@ -1076,7 +1078,7 @@ http://retracker.mgts.by/announce
 http://retracker.ohys.net:80/announce
 http://retracker.seven-sky.net/announce
 http://retracker.sevstar.net:2710/announce
-http://retracker.spark-rostov.ru/announce
+http://retracker.spark-rostov.ru:80/announce
 http://retracker.telecom.by/announce
 http://retracker.x2k.ru/announce
 http://retracker.xxtor.com/announce
@@ -1093,12 +1095,12 @@ http://s1130642.ha014.t.mydomain.zone:80/announce
 http://s926723.ha016.t.mydomain.zone:80/announce
 http://saltwood.top:6969/announce
 http://secure.pow7.com/announce
-http://seeders-paradise.org/announce
+http://seeders-paradise.org:80/announce
 http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
-http://share.hkg-fansub.info/announce.php
 http://share.hkg-fansub.info:80/announce
+http://share.hkg-fansub.info:80/announce.php
 http://shogiroom.com:6969/announce
 http://shubt.net:2710/announce
 http://siambit.com:80/announce
@@ -1212,7 +1214,7 @@ http://tracker.bittorrent.nibblepoker.lu:49227/announce
 http://tracker.blazing.de:6969/announce
 http://tracker.breizh.pm:6969/announce
 http://tracker.bt-chat.com/announce
-http://tracker.bt-hash.com/announce
+http://tracker.bt-hash.com:80/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.btcake.com/announce
 http://tracker.btsync.gq:233/announce
@@ -1226,7 +1228,7 @@ http://tracker.city9x.com:2710/announce
 http://tracker.computel.fr/announce
 http://tracker.coppersurfer.site:2710/announce
 http://tracker.coppersurfer.tk:6969/announce
-http://tracker.corpscorp.online/announce
+http://tracker.corpscorp.online:80/announce
 http://tracker.cubicview.site/announce
 http://tracker.cubonegro.org:80/announce
 http://tracker.cutie.dating/announce
@@ -1517,6 +1519,7 @@ https://00.alarmasqueretaro.com/announce
 https://00.mercax.com:443/announce
 https://00.xxtor.com:443/announce
 https://004430.xyz:443/announce
+https://021912.xyz:443/announce
 https://0d.kebhana.mx:443/announce
 https://1.tracker.eu.org/announce
 https://104.28.1.30:8080/announce
@@ -1571,6 +1574,7 @@ https://agusiq-torrents.pl:6969/announce
 https://alpha.torrenttracker.nl:443/announce
 https://api.ipv4online.uk:443/announce
 https://atrack.pow7.com/announce
+https://banananetwork.qzz.io:443/announce
 https://bdremux.club/announce
 https://bittorrent.gongt.net:443/announce
 https://bittorrent.service.gongt.me:59443/announce
@@ -1641,6 +1645,7 @@ https://opentracker.cc:443/announce
 https://opentracker.co/announce
 https://opentracker.i2p.rocks/announce
 https://opentracker.xyz/announce
+https://orgtgju.org:443/announce
 https://ourbits.club/announce
 https://p2p.azu.red/announce
 https://p4p.arenabg.ch:1337/announce
@@ -1702,7 +1707,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
