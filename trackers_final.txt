@@ -2,7 +2,7 @@ http://00.alarmasqueretaro.com:443/announce
 http://00.mercax.com:443/announce
 http://00.xxtor.com:443/announce
 http://004430.xyz:80/announce
-http://0123456789nonexistent.com/announce
+http://0123456789nonexistent.com:80/announce
 http://0205.uptm.ch:6969/announce
 http://0d.kebhana.mx:443/announce
 http://0x7c.space:7070/announce
@@ -184,6 +184,7 @@ http://152.249.214.68:6969/announce
 http://152.249.214.74:6969/announce
 http://152.249.75.131:6969/announce
 http://152.249.97.159:6969/announce
+http://152.249.97.82:6969/announce
 http://152.53.194.103:2710/announce
 http://152.67.8.255:6969/announce
 http://154.29.145.56:17715/announce
@@ -986,7 +987,7 @@ http://isk.richardsw.club:6969/announce
 http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 http://jsb.by00/announce
-http://jvavav.com/announce
+http://jvavav.com:80/announce
 http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com:80/announce
 http://kinorun.com:80/announce.php
@@ -1045,7 +1046,7 @@ http://open.touki.ru/announce
 http://open.touki.ru/announce.php
 http://open.tracker.cl:1337/announce
 http://open.tracker.ink:6969/announce
-http://open.trackerlist.xyz/announce
+http://open.trackerlist.xyz:80/announce
 http://open.va.wiki:900/announce
 http://openbittorrent.com:80/announce
 http://opentracker.91kf.top:16969/announce
@@ -1096,7 +1097,7 @@ http://retracker.mgts.by/announce
 http://retracker.ohys.net:80/announce
 http://retracker.seven-sky.net/announce
 http://retracker.sevstar.net:2710/announce
-http://retracker.spark-rostov.ru/announce
+http://retracker.spark-rostov.ru:80/announce
 http://retracker.telecom.by/announce
 http://retracker.x2k.ru/announce
 http://retracker.xxtor.com/announce
@@ -1113,12 +1114,12 @@ http://s1130642.ha014.t.mydomain.zone:80/announce
 http://s926723.ha016.t.mydomain.zone:80/announce
 http://saltwood.top:6969/announce
 http://secure.pow7.com/announce
-http://seeders-paradise.org/announce
+http://seeders-paradise.org:80/announce
 http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
-http://share.hkg-fansub.info/announce.php
 http://share.hkg-fansub.info:80/announce
+http://share.hkg-fansub.info:80/announce.php
 http://shogiroom.com:6969/announce
 http://shubt.net:2710/announce
 http://siambit.com:80/announce
@@ -1232,7 +1233,7 @@ http://tracker.bittorrent.nibblepoker.lu:49227/announce
 http://tracker.blazing.de:6969/announce
 http://tracker.breizh.pm:6969/announce
 http://tracker.bt-chat.com/announce
-http://tracker.bt-hash.com/announce
+http://tracker.bt-hash.com:80/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.btcake.com/announce
 http://tracker.btsync.gq:233/announce
@@ -1246,7 +1247,7 @@ http://tracker.city9x.com:2710/announce
 http://tracker.computel.fr/announce
 http://tracker.coppersurfer.site:2710/announce
 http://tracker.coppersurfer.tk:6969/announce
-http://tracker.corpscorp.online/announce
+http://tracker.corpscorp.online:80/announce
 http://tracker.cubicview.site/announce
 http://tracker.cubonegro.org:80/announce
 http://tracker.cutie.dating/announce
@@ -1296,7 +1297,7 @@ http://tracker.huadongblower.xyz:8080/announce
 http://tracker.ilibr.org:80/announce
 http://tracker.imgdump.lol:6969/announce
 http://tracker.internetwarriors.net:1337/announce
-http://tracker.ipv6tracker.org/announce
+http://tracker.ipv6tracker.org:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.iro.moe/announce
 http://tracker.ismaarino.com:8880/announce
@@ -2066,6 +2067,7 @@ udp://152.249.214.23:6969/announce
 udp://152.249.214.53:6969/announce
 udp://152.249.214.68:6969/announce
 udp://152.249.214.74:6969/announce
+udp://152.249.97.82:6969/announce
 udp://152.53.152.105:15480/announce
 udp://152.53.152.105:1984/announce
 udp://152.53.152.105:54123/announce
