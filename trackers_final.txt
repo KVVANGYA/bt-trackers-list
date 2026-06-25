@@ -2,7 +2,7 @@ http://00.alarmasqueretaro.com:443/announce
 http://00.mercax.com:443/announce
 http://00.xxtor.com:443/announce
 http://004430.xyz:80/announce
-http://0123456789nonexistent.com/announce
+http://0123456789nonexistent.com:80/announce
 http://0205.uptm.ch:6969/announce
 http://0d.kebhana.mx:443/announce
 http://0x7c.space:7070/announce
@@ -391,6 +391,7 @@ http://189.79.13.111:6969/announce
 http://189.79.13.198:6969/announce
 http://191.23.121.129:6969/announce
 http://191.23.62.111:6969/announce
+http://191.23.62.139:6969/announce
 http://191.23.62.147:6969/announce
 http://191.23.71.103:6969/announce
 http://191.23.71.131:6969/announce
@@ -991,7 +992,7 @@ http://isk.richardsw.club:6969/announce
 http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 http://jsb.by00/announce
-http://jvavav.com/announce
+http://jvavav.com:80/announce
 http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com:80/announce
 http://kinorun.com:80/announce.php
@@ -1050,7 +1051,7 @@ http://open.touki.ru/announce
 http://open.touki.ru/announce.php
 http://open.tracker.cl:1337/announce
 http://open.tracker.ink:6969/announce
-http://open.trackerlist.xyz/announce
+http://open.trackerlist.xyz:80/announce
 http://open.va.wiki:900/announce
 http://openbittorrent.com:80/announce
 http://opentracker.91kf.top:16969/announce
@@ -1118,12 +1119,12 @@ http://s1130642.ha014.t.mydomain.zone:80/announce
 http://s926723.ha016.t.mydomain.zone:80/announce
 http://saltwood.top:6969/announce
 http://secure.pow7.com/announce
-http://seeders-paradise.org/announce
+http://seeders-paradise.org:80/announce
 http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
-http://share.hkg-fansub.info/announce.php
 http://share.hkg-fansub.info:80/announce
+http://share.hkg-fansub.info:80/announce.php
 http://shogiroom.com:6969/announce
 http://shubt.net:2710/announce
 http://siambit.com:80/announce
@@ -2265,6 +2266,7 @@ udp://190.146.242.81:6969/announce
 udp://191.101.229.236:1337/announce
 udp://191.23.121.129:6969/announce
 udp://191.23.62.111:6969/announce
+udp://191.23.62.139:6969/announce
 udp://191.23.62.147:6969/announce
 udp://191.23.71.103:6969/announce
 udp://191.23.71.131:6969/announce
