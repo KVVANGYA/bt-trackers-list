@@ -992,7 +992,7 @@ http://isk.richardsw.club:6969/announce
 http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 http://jsb.by00/announce
-http://jvavav.com:80/announce
+http://jvavav.com/announce
 http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com:80/announce
 http://kinorun.com:80/announce.php
@@ -1607,6 +1607,7 @@ https://bittorrent.service.gongt.me:59443/announce
 https://bittracker.nekosunevr.co.uk:443/announce
 https://bot.ponomar-sibir.ru/announce
 https://bruisedfumblingmotion.sddsdsdsddsdss.repl.co/announce
+https://bt-tracker.wasmer.app/announce
 https://bt.080609.xyz:443/announce
 https://bt.beatrice-raws.org/announce
 https://bt.bontal.net/announce
@@ -1735,7 +1736,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga/announce
+https://tr.abir.ga:443/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -3489,6 +3490,9 @@ udp://yahor.of.by:6969/announce
 udp://yann5.hexanyn.fr:6969/announce
 udp://yuki.bt.bontal.net:6969/announce
 udp://yuptracker-eu.gaijinent.com:27022/announce
+udp://yuptracker-sa.gaijinent.com:27022/announce
+udp://yuptracker-us.gaijinent.com:27022/announce
+udp://yuptracker.gaijinent.com:27022/announce
 udp://z.crazyhd.com:2710/announce
 udp://z.mercax.com:53/announce
 udp://z.paranoid.agency:6969/announce
