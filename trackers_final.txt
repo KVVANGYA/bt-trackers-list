@@ -545,13 +545,13 @@ http://34.170.169.34:6969/announce
 http://34.52.190.155/announce
 http://34.52.190.155:6960/announce
 http://34.52.190.155:6969/announce
+http://34.66.57.33/announce
 http://34.66.57.33:11450/announce
 http://34.66.57.33:1337/announce
 http://34.66.57.33:2701/announce
 http://34.66.57.33:2710/announce
 http://34.66.57.33:443/announce
 http://34.66.57.33:6969/announce
-http://34.66.57.33:80/announce
 http://34.89.30.59/announce
 http://34.89.30.59:2710/announce
 http://34.89.51.235/announce
@@ -584,8 +584,8 @@ http://35.227.59.57:2710/announce
 http://35.227.59.57:443/announce
 http://35.227.59.57:6960/announce
 http://35.227.59.57:6969/announce
-http://37.120.182.83/announce
 http://37.120.182.83:2710/announce
+http://37.120.182.83:80/announce
 http://37.19.5.139:6969/announce
 http://37.19.5.155:6881/announce
 http://37.235.174.46:2710/announce
@@ -662,8 +662,8 @@ http://60-fps.org/bt/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org/bt:80/announce
 http://60-fps.org:80/bt:80/announce.php
-http://60.249.37.20/announce
 http://60.249.37.20:6969/announce
+http://60.249.37.20:80/announce
 http://60.249.37.21/announce
 http://60.249.37.21:6969/announce
 http://61.216.109.95:6969/announce
@@ -812,7 +812,7 @@ http://[202:68d0:f0d5:b88d:1d1a:555e:2f6b:3148]:6969/announce
 http://[21e:6565:9c87:a49d:dafa:92c1:b33f:f21]:1337/announce
 http://a.leopard-raws.org:6969/announce
 http://aaa.army:8866/announce
-http://aboutbeautifulgallopinghorsesinthegreenpasture.online/announce
+http://aboutbeautifulgallopinghorsesinthegreenpasture.online:80/announce
 http://agusiq-torrents.pl:6969/announce
 http://all4nothin.net:80/announce
 http://all4nothin.net:80/announce.php
@@ -995,7 +995,7 @@ http://isk.richardsw.club:6969/announce
 http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 http://jsb.by00/announce
-http://jvavav.com:80/announce
+http://jvavav.com/announce
 http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com:80/announce
 http://kinorun.com:80/announce.php
@@ -1204,7 +1204,7 @@ http://tr.bangumi.moe/announce
 http://tr.bangumi.moe:6969/announce
 http://tr.cili001.com70/announce
 http://tr.cili001.com:8070/announce
-http://tr.highstar.shop/announce
+http://tr.highstar.shop:80/announce
 http://tr.kxmp.cf:80/announce
 http://tr.nyacat.pw:443/announce
 http://tr.nyacat.pw:80/announce
@@ -1698,7 +1698,7 @@ https://retracker.x2k.ru/announce
 https://retracker2.x2k.ru/announce
 https://secure.pow7.com/announce
 https://seeders-paradise.org/announce
-https://shahidrazi.online/announce
+https://shahidrazi.online:443/announce
 https://socket.onvo.me/announce
 https://sparkle.ghostchu-services.top/announce
 https://sparkle.ghostchu-services.top/tracker/announce
@@ -2883,6 +2883,7 @@ udp://dmitrynegoda.com:6969/announce
 udp://dns.xxtor.com:53/announce
 udp://download.nerocloud.me:6969/announce
 udp://dpiui.reedlan.com:6969/announce
+udp://ds32244.seedhost.eu:6969/announce
 udp://dyndns.xionxiii.ovh:6969/announce
 udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
 udp://eccologic.net:6969/announce
