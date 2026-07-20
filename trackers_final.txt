@@ -1799,7 +1799,7 @@ https://tracker.cloudit.top:443/announce
 https://tracker.coalition.space/announce
 https://tracker.crawfish.cf/announce
 https://tracker.cutie.dating:443/announce
-https://tracker.cybar.xyz:443/announce
+https://tracker.cybar.xyz/announce
 https://tracker.cyber-hub.net/announce
 https://tracker.dev-null.rocks/announce
 https://tracker.devil-torrents.pl:80/announce
@@ -1952,7 +1952,7 @@ https://tracker2.wasabii.com.tw:6969/announce
 https://tracker3.ctix.cn/announce
 https://tracker3.leaves.red/announce
 https://tracker6.lelux.fi/announce
-https://trackers.mlsub.net:443/announce
+https://trackers.mlsub.net/announce
 https://trackers.nekosunevr.co.uk/announce
 https://trackers.ptlsp.com/announce
 https://trackers.run/announce
