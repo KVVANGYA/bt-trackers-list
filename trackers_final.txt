@@ -497,8 +497,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
+http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
-http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://211.97.119.88:2710/announce
@@ -547,13 +547,13 @@ http://34.170.169.34:6969/announce
 http://34.52.190.155/announce
 http://34.52.190.155:6960/announce
 http://34.52.190.155:6969/announce
+http://34.66.57.33/announce
 http://34.66.57.33:11450/announce
 http://34.66.57.33:1337/announce
 http://34.66.57.33:2701/announce
 http://34.66.57.33:2710/announce
 http://34.66.57.33:443/announce
 http://34.66.57.33:6969/announce
-http://34.66.57.33:80/announce
 http://34.89.30.59/announce
 http://34.89.30.59:2710/announce
 http://34.89.51.235/announce
@@ -1110,7 +1110,7 @@ http://retracker.mgts.by/announce
 http://retracker.ohys.net:80/announce
 http://retracker.seven-sky.net/announce
 http://retracker.sevstar.net:2710/announce
-http://retracker.spark-rostov.ru:80/announce
+http://retracker.spark-rostov.ru/announce
 http://retracker.telecom.by/announce
 http://retracker.x2k.ru/announce
 http://retracker.xxtor.com/announce
@@ -1247,7 +1247,7 @@ http://tracker.bittorrent.nibblepoker.lu:49227/announce
 http://tracker.blazing.de:6969/announce
 http://tracker.breizh.pm:6969/announce
 http://tracker.bt-chat.com/announce
-http://tracker.bt-hash.com:80/announce
+http://tracker.bt-hash.com/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.btcake.com/announce
 http://tracker.btsync.gq:233/announce
