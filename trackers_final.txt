@@ -405,6 +405,7 @@ http://191.23.71.103:6969/announce
 http://191.23.71.131:6969/announce
 http://191.23.71.193:6969/announce
 http://191.23.71.22:6969/announce
+http://191.23.94.128:6969/announce
 http://191.23.94.237:6969/announce
 http://191.254.171.209:6969/announce
 http://191.254.171.95:6969/announce
@@ -481,10 +482,10 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
+http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.187:80/announce
-http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.188:80/announce
 http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 http://211.75.205.190/announce
@@ -1064,7 +1065,7 @@ http://open.touki.ru/announce
 http://open.touki.ru/announce.php
 http://open.tracker.cl:1337/announce
 http://open.tracker.ink:6969/announce
-http://open.trackerlist.xyz/announce
+http://open.trackerlist.xyz:80/announce
 http://open.va.wiki:900/announce
 http://openbittorrent.com:80/announce
 http://opentracker.91kf.top:16969/announce
@@ -1757,7 +1758,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
+https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -2309,6 +2310,7 @@ udp://191.23.71.103:6969/announce
 udp://191.23.71.131:6969/announce
 udp://191.23.71.193:6969/announce
 udp://191.23.71.22:6969/announce
+udp://191.23.94.128:6969/announce
 udp://191.23.94.237:6969/announce
 udp://191.254.171.209:6969/announce
 udp://191.254.171.95:6969/announce
