@@ -487,8 +487,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
-http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.187:80/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.188:80/announce
 http://211.75.205.189/announce
@@ -564,7 +564,6 @@ http://34.66.57.33:2710/announce
 http://34.66.57.33:443/announce
 http://34.66.57.33:6969/announce
 http://34.66.57.33:80/announce
-http://34.66.57.33:80/announce.php
 http://34.89.30.59/announce
 http://34.89.30.59:2710/announce
 http://34.89.51.235/announce
@@ -847,7 +846,7 @@ http://asiatorrent.giize.com:51413/announce
 http://asnet.pw:2710/announce
 http://atrack.pow7.com:80/announce
 http://baibako.tv:80/announce
-http://bdremux.club/announce
+http://bdremux.club:80/announce
 http://big-boss-tracker.net/announce.php
 http://big-boss-tracker.net:80/announce
 http://bigfoot1942.sektori.org:6969/announce
@@ -1142,8 +1141,8 @@ http://seeders-paradise.org:80/announce
 http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 http://share.camoe.cn:8080/announce
+http://share.hkg-fansub.info/announce.php
 http://share.hkg-fansub.info:80/announce
-http://share.hkg-fansub.info:80/announce.php
 http://shogiroom.com:6969/announce
 http://shubt.net:2710/announce
 http://siambit.com:80/announce
@@ -1258,7 +1257,7 @@ http://tracker.bittorrent.nibblepoker.lu:49227/announce
 http://tracker.blazing.de:6969/announce
 http://tracker.breizh.pm:6969/announce
 http://tracker.bt-chat.com/announce
-http://tracker.bt-hash.com:80/announce
+http://tracker.bt-hash.com/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.btcake.com/announce
 http://tracker.btsync.gq:233/announce
@@ -1273,7 +1272,7 @@ http://tracker.city9x.com:2710/announce
 http://tracker.computel.fr/announce
 http://tracker.coppersurfer.site:2710/announce
 http://tracker.coppersurfer.tk:6969/announce
-http://tracker.corpscorp.online/announce
+http://tracker.corpscorp.online:80/announce
 http://tracker.cubicview.site/announce
 http://tracker.cubonegro.org/announce
 http://tracker.cutie.dating/announce
@@ -1323,7 +1322,7 @@ http://tracker.huadongblower.xyz:8080/announce
 http://tracker.ilibr.org:80/announce
 http://tracker.imgdump.lol:6969/announce
 http://tracker.internetwarriors.net:1337/announce
-http://tracker.ipv6tracker.org/announce
+http://tracker.ipv6tracker.org:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.iro.moe/announce
 http://tracker.ismaarino.com:8880/announce
@@ -1625,7 +1624,7 @@ https://alpha.torrenttracker.nl:443/announce
 https://api.ipv4online.uk:443/announce
 https://atrack.pow7.com/announce
 https://banananetwork.qzz.io:443/announce
-https://bdremux.club/announce
+https://bdremux.club:443/announce
 https://bittorrent.gongt.net:443/announce
 https://bittorrent.service.gongt.me:59443/announce
 https://bittracker.nekosunevr.co.uk:443/announce
@@ -1640,7 +1639,7 @@ https://bt.henbt.com:2710/announce
 https://bt.nfshost.com/announce
 https://bt.ptlsp.com/announce
 https://bt.pusacg.org:8080/announce
-https://bt2.080609.xyz:443/announce
+https://bt2.080609.xyz/announce
 https://bt2.careland.com.cn:6969/announce
 https://btn-prod.ghostchu-services.top/tracker/announce
 https://burmese.app/announce
@@ -2336,6 +2335,7 @@ udp://192.95.46.115:6969/announce
 udp://192.99.100.68:6969/announce
 udp://193.148.251.143:6969/announce
 udp://193.148.251.93:6969/announce
+udp://193.164.155.221:6969/announce
 udp://193.177.162.187:6969/announce
 udp://193.187.90.12:6969/announce
 udp://193.233.161.213:6969/announce
