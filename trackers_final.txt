@@ -355,6 +355,7 @@ http://187.56.205.91:6969/announce
 http://187.57.130.109:6969/announce
 http://187.57.130.147:6969/announce
 http://187.57.131.202:6969/announce
+http://187.57.131.55:6969/announce
 http://187.57.131.78:6969/announce
 http://187.57.132.20:6969/announce
 http://187.57.132.246:6969/announce
@@ -1221,8 +1222,8 @@ http://tr.cili001.com70/announce
 http://tr.cili001.com:8070/announce
 http://tr.highstar.shop/announce
 http://tr.kxmp.cf:80/announce
+http://tr.nyacat.pw/announce
 http://tr.nyacat.pw:443/announce
-http://tr.nyacat.pw:80/announce
 http://tr1.aag.moe:2095/announce
 http://tracker-cdn.moeking.me:2095/announce
 http://tracker-rh.zhuqiy.eu.org/announce
@@ -1763,7 +1764,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga/announce
+https://tr.abir.ga:443/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -1773,7 +1774,7 @@ https://tr.fuckbitcoin.xyz:443/announce
 https://tr.highstar.shop/announce
 https://tr.kxmp.cf:443/announce
 https://tr.kxmp.cf:80/announce
-https://tr.nyacat.pw:443/announce
+https://tr.nyacat.pw/announce
 https://tr.qfruiti.com/announce
 https://tr.qfruiti.in/announce
 https://tr.ready4.icu:443/announce
@@ -2270,6 +2271,7 @@ udp://187.56.205.91:6969/announce
 udp://187.57.130.109:6969/announce
 udp://187.57.130.147:6969/announce
 udp://187.57.131.202:6969/announce
+udp://187.57.131.55:6969/announce
 udp://187.57.131.78:6969/announce
 udp://187.57.132.20:6969/announce
 udp://187.57.132.246:6969/announce
