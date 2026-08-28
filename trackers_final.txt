@@ -508,8 +508,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
+http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
-http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://211.97.119.88:2710/announce
@@ -1070,7 +1070,7 @@ http://open.touki.ru/announce
 http://open.touki.ru/announce.php
 http://open.tracker.cl:1337/announce
 http://open.tracker.ink:6969/announce
-http://open.trackerlist.xyz:80/announce
+http://open.trackerlist.xyz/announce
 http://open.va.wiki:900/announce
 http://openbittorrent.com:80/announce
 http://opentracker.91kf.top:16969/announce
@@ -1222,8 +1222,8 @@ http://tr.cili001.com70/announce
 http://tr.cili001.com:8070/announce
 http://tr.highstar.shop/announce
 http://tr.kxmp.cf:80/announce
-http://tr.nyacat.pw/announce
 http://tr.nyacat.pw:443/announce
+http://tr.nyacat.pw:80/announce
 http://tr1.aag.moe:2095/announce
 http://tracker-cdn.moeking.me:2095/announce
 http://tracker-rh.zhuqiy.eu.org/announce
@@ -1273,7 +1273,7 @@ http://tracker.city9x.com:2710/announce
 http://tracker.computel.fr/announce
 http://tracker.coppersurfer.site:2710/announce
 http://tracker.coppersurfer.tk:6969/announce
-http://tracker.corpscorp.online:80/announce
+http://tracker.corpscorp.online/announce
 http://tracker.cubicview.site/announce
 http://tracker.cubonegro.org/announce
 http://tracker.cutie.dating/announce
@@ -1774,7 +1774,7 @@ https://tr.fuckbitcoin.xyz:443/announce
 https://tr.highstar.shop/announce
 https://tr.kxmp.cf:443/announce
 https://tr.kxmp.cf:80/announce
-https://tr.nyacat.pw/announce
+https://tr.nyacat.pw:443/announce
 https://tr.qfruiti.com/announce
 https://tr.qfruiti.in/announce
 https://tr.ready4.icu:443/announce
@@ -1910,6 +1910,7 @@ https://tracker.netmap.top:8443/announce
 https://tracker.nitrix.me/announce
 https://tracker.novy.vip:443/announce
 https://tracker.nyaa.tk/announce
+https://tracker.onetracker.net:443/announce
 https://tracker.opendev.cloud/announce
 https://tracker.opentracker.se:443/announce
 https://tracker.opentrackr.org:1337/announce
