@@ -493,8 +493,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
-http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
+http://211.75.205.187:80/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.188:80/announce
 http://211.75.205.189/announce
@@ -513,8 +513,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
+http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
-http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://211.97.119.88:2710/announce
@@ -1228,8 +1228,8 @@ http://tr.cili001.com70/announce
 http://tr.cili001.com:8070/announce
 http://tr.highstar.shop/announce
 http://tr.kxmp.cf:80/announce
-http://tr.nyacat.pw/announce
 http://tr.nyacat.pw:443/announce
+http://tr.nyacat.pw:80/announce
 http://tr1.aag.moe:2095/announce
 http://tracker-cdn.moeking.me:2095/announce
 http://tracker-rh.zhuqiy.eu.org/announce
@@ -1431,6 +1431,7 @@ http://tracker.torrentbytes.net:80/announce
 http://tracker.torrentbytes.net:80/announce.php
 http://tracker.torrentino.com/announce
 http://tracker.torrentleech.org:2710/announce
+http://tracker.torrents.observer:80/announce
 http://tracker.torrentuje.me:2710/announce
 http://tracker.torrenty.org:6969/announce
 http://tracker.torrentyorg.pl:80/announce
@@ -1784,7 +1785,7 @@ https://tr.fuckbitcoin.xyz:443/announce
 https://tr.highstar.shop/announce
 https://tr.kxmp.cf:443/announce
 https://tr.kxmp.cf:80/announce
-https://tr.nyacat.pw/announce
+https://tr.nyacat.pw:443/announce
 https://tr.qfruiti.com/announce
 https://tr.qfruiti.in/announce
 https://tr.ready4.icu:443/announce
@@ -3111,6 +3112,7 @@ udp://open.xxtor.com:3074/announce
 udp://opentor.org:2710/announce
 udp://opentracker.i2p.rocks:6969/announce
 udp://opentracker.io:6969/announce
+udp://opentracker.lain.moscow:6969/announce
 udp://opentracker.simp.i2p:6969/a
 udp://opentracker.skank.i2p:6969/a
 udp://opentracker.xyz:443/announce
