@@ -514,8 +514,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
-http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
+http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://211.97.119.88:2710/announce
@@ -1708,7 +1708,7 @@ https://open.ftorrent.com:443/announce
 https://open.kickasstracker.com/announce
 https://open.lolicon.eu:7777/announce
 https://open.touki.ru/announce
-https://opentracker.8880085.xyz:443/announce
+https://opentracker.8880085.xyz/announce
 https://opentracker.acgnx.se/announce
 https://opentracker.cc:443/announce
 https://opentracker.co/announce
@@ -3035,6 +3035,7 @@ udp://keke.re:6969/announce
 udp://kingof.torrentonline.cc:42069/announce
 udp://kiryuu-test.mywaifu.best:6969/announce
 udp://kokodayo.site:6969/announce
+udp://kolankoalastree.newtrackon.co.nz:1337/announce
 udp://kolanopentracker.airdns.org:3392/announce
 udp://kristof.bartanet.cz:6969/announce
 udp://laestrygonian.ooguy.com:9001/announce
