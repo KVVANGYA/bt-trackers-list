@@ -266,6 +266,7 @@ http://177.172.66.210:6969/announce
 http://177.172.66.223:6969/announce
 http://177.172.66.2:6969/announce
 http://177.172.67.13:6969/announce
+http://177.172.67.177:6969/announce
 http://177.172.67.233:6969/announce
 http://177.172.67.247:6969/announce
 http://177.172.67.94:6969/announce
@@ -1783,7 +1784,7 @@ https://tr-zhuqiy-1.dgj055.icu/announce
 https://tr-zhuqiy-2.dgj055.icu/announce
 https://tr.aag.moe/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga/announce
+https://tr.abir.ga:443/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
@@ -2203,6 +2204,7 @@ udp://177.172.66.210:6969/announce
 udp://177.172.66.223:6969/announce
 udp://177.172.66.2:6969/announce
 udp://177.172.67.13:6969/announce
+udp://177.172.67.177:6969/announce
 udp://177.172.67.233:6969/announce
 udp://177.172.67.247:6969/announce
 udp://177.172.67.94:6969/announce
