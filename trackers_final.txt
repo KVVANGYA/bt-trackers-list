@@ -501,8 +501,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
+http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.187:80/announce
 http://211.75.205.188:6969/announce
 http://211.75.205.188:80/announce
 http://211.75.205.189/announce
@@ -521,8 +521,8 @@ http://211.75.210.123/announce
 http://211.75.210.123:6969/announce
 http://211.75.210.220/announce
 http://211.75.210.220:6969/announce
-http://211.75.210.221/announce
 http://211.75.210.221:6969/announce
+http://211.75.210.221:80/announce
 http://211.75.29.254:6969/announce
 http://211.97.119.76:2710/announce
 http://211.97.119.88:2710/announce
@@ -2022,6 +2022,7 @@ udp://101.99.91.160:6969/announce
 udp://101.99.94.187:6969/announce
 udp://103.122.21.50:6969/announce
 udp://103.251.166.126:6969/announce
+udp://103.27.158.117:1914/announce
 udp://104.131.98.232:6969/announce
 udp://104.143.10.186:8000/announce
 udp://104.238.198.186:8000/announce
@@ -3145,6 +3146,7 @@ udp://opentracker.lain.moscow:6969/announce
 udp://opentracker.simp.i2p:6969/a
 udp://opentracker.skank.i2p:6969/a
 udp://opentracker.xyz:443/announce
+udp://opentracker2.lain.moscow:6969/announce
 udp://opentrackr.org:1337/announce
 udp://openwrt.lingyurouqing.xyz:6969/announce
 udp://oscar.reyesleon.xyz:6969/announce
@@ -3357,6 +3359,7 @@ udp://tracker.edkj.club:6969/announce
 udp://tracker.emule.best:6969/announce
 udp://tracker.encrypted-data.xyz:1337/announce
 udp://tracker.etree.org:6969/announce
+udp://tracker.evergarden.uk:1914/announce
 udp://tracker.ex.ua:80/announce
 udp://tracker.exe.in.th:6969/announce
 udp://tracker.farted.net:6969/announce
