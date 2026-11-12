@@ -2040,7 +2040,6 @@ udp://107.150.14.110:6969/announce
 udp://107.175.221.194:6969/announce
 udp://107.182.30.76.16clouds.com:6969/announce
 udp://107.189.11.58:6969/announce
-udp://107.189.2.131:1337/announce
 udp://107.189.3.200:6969/announce
 udp://107.189.4.235:1337/announce
 udp://107.189.7.165:6969/announce
@@ -2897,6 +2896,7 @@ udp://amigacity.xyz:6969/announce
 udp://anidex.moe:6969/announce
 udp://anime-tracker.aruku.kro.kr:8081/announce
 udp://anna.bt.bontal.net:6969/announce
+udp://announce.augrains.com:6969/announce
 udp://anzix.net:6969/announce
 udp://api.alarmasqueretaro.com:3074/announce
 udp://api.boletera.org:3074/announce
