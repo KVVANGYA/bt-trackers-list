@@ -267,6 +267,7 @@ http://177.172.65.168:6969/announce
 http://177.172.66.120:6969/announce
 http://177.172.66.210:6969/announce
 http://177.172.66.223:6969/announce
+http://177.172.66.244:6969/announce
 http://177.172.66.2:6969/announce
 http://177.172.67.13:6969/announce
 http://177.172.67.177:6969/announce
@@ -416,6 +417,7 @@ http://189.79.12.91:6969/announce
 http://189.79.13.107:6969/announce
 http://189.79.13.111:6969/announce
 http://189.79.13.198:6969/announce
+http://190.22.55.78:1337/announce
 http://191.23.121.129:6969/announce
 http://191.23.62.111:6969/announce
 http://191.23.62.139:6969/announce
@@ -503,10 +505,10 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 http://211.23.142.127/announce
 http://211.23.142.127:6969/announce
+http://211.75.205.187/announce
 http://211.75.205.187:6969/announce
-http://211.75.205.187:80/announce
-http://211.75.205.188/announce
 http://211.75.205.188:6969/announce
+http://211.75.205.188:80/announce
 http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 http://211.75.205.190/announce
@@ -645,6 +647,7 @@ http://45.63.111.135:8080/announce
 http://45.67.35.111:6969/announce
 http://45.7.231.102/announce
 http://46.17.46.112:8080/announce
+http://46.188.15.49:6969/announce
 http://46.231.241.43:6969/announce
 http://46.29.161.6:2710/announce
 http://46.29.161.6:6961/announce
@@ -1099,6 +1102,7 @@ http://opentracker.eeptorrent.i2p:80/a
 http://opentracker.fattydove.i2p:80/a
 http://opentracker.i2p.rocks:6969/announce
 http://opentracker.io/announce
+http://opentracker.lain.moscow:6969/announce
 http://opentracker.r4sas.i2p:80/a
 http://opentracker.simp.i2p:80/a
 http://opentracker.skank.i2p:80/a
@@ -1396,6 +1400,7 @@ http://tracker.nyaa2p.i2p:80/announce
 http://tracker.nyacat.pw:7000/announce
 http://tracker.nyacat.pw:7000/announce.php
 http://tracker.nyap2p.com:8080/announce
+http://tracker.okade.pro:1337/announce
 http://tracker.openbittorrent.com:80/announce
 http://tracker.openbittorrrent.com:80/announce
 http://tracker.opentorrent.top:6969/announce
@@ -1792,7 +1797,7 @@ https://tr.abir.ga/announce
 https://tr.abirxo.cf/announce
 https://tr.bangumi.moe:6969/announce
 https://tr.bangumi.moe:9696/announce
-https://tr.burnabyhighstar.com/announce
+https://tr.burnabyhighstar.com:443/announce
 https://tr.doogh.club/announce
 https://tr.fuckbitcoin.xyz:443/announce
 https://tr.highstar.shop/announce
@@ -2085,6 +2090,7 @@ udp://120.36.84.48:6969/announce
 udp://120.36.85.245:2710/announce
 udp://120.78.150.131:6969/announce
 udp://121.199.16.229:6969/announce
+udp://123.245.62.62:6969/announce
 udp://125.227.79.123:6969/announce
 udp://125.227.79.123:80/announce
 udp://128.199.70.66:5944/announce
@@ -2215,6 +2221,7 @@ udp://177.172.65.168:6969/announce
 udp://177.172.66.120:6969/announce
 udp://177.172.66.210:6969/announce
 udp://177.172.66.223:6969/announce
+udp://177.172.66.244:6969/announce
 udp://177.172.66.2:6969/announce
 udp://177.172.67.13:6969/announce
 udp://177.172.67.177:6969/announce
@@ -2264,6 +2271,7 @@ udp://181.214.58.63:6969/announce
 udp://182.176.139.129:6969/announce
 udp://184.105.151.166:6969/announce
 udp://184.105.226.26:6969/announce
+udp://184.174.97.26:6969/announce
 udp://185.100.85.201:6969/announce
 udp://185.102.219.163:6969/announce
 udp://185.121.168.244:1337/announce
@@ -2359,6 +2367,7 @@ udp://189.79.12.91:6969/announce
 udp://189.79.13.111:6969/announce
 udp://189.79.13.198:6969/announce
 udp://190.146.242.81:6969/announce
+udp://190.22.55.78:1337/announce
 udp://191.101.229.236:1337/announce
 udp://191.23.121.129:6969/announce
 udp://191.23.62.111:6969/announce
@@ -2394,6 +2403,7 @@ udp://193.42.111.57:9337/announce
 udp://193.53.126.6:6961/announce
 udp://194.106.216.222:80/announce
 udp://194.110.247.18:6969/announce
+udp://194.169.160.46:1212/announce
 udp://194.195.86.132:6969/announce
 udp://194.38.21.77:6969/announce
 udp://194.62.248.73:15480/announce
@@ -2809,6 +2819,7 @@ udp://84.197.224.61:6969/announce
 udp://84.54.51.78:6969/announce
 udp://85.121.148.217:2710/announce
 udp://85.121.5.80:6969/announce
+udp://85.159.231.214:1212/announce
 udp://85.17.19.180:80/announce
 udp://85.17.55.112:6969/announce
 udp://85.239.33.28:6969/announce
@@ -3247,7 +3258,9 @@ udp://t.publictracker.xyz:6969/announce
 udp://t.zerg.pw:1337/announce
 udp://t.zerg.pw:6969/announce
 udp://t1.chfs.ch:6969/announce
+udp://t1.itrus.su:1212/announce
 udp://t1.pow7.com:6969/announce
+udp://t2.itrus.su:1212/announce
 udp://t2.leech.ie:1337/announce
 udp://t2.pow7.com:6969/announce
 udp://t3.leech.ie:1337/announce
@@ -3309,6 +3322,7 @@ udp://tracker.0x7c0.com:6969/announce
 udp://tracker.1048576.cn:17272/announce
 udp://tracker.1337x.org:80/announce
 udp://tracker.1h.is:1337/announce
+udp://tracker.23794.top:6969/announce
 udp://tracker.4.babico.name.tr:3131/announce
 udp://tracker.6.babico.name.tr:6969/announce
 udp://tracker.acgnx.se/announce
